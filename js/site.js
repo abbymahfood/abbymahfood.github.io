@@ -1,4 +1,3 @@
-const URL = "https://abbymahfood.github.io";
 const JSON_URL = "https://abbymahfood.github.io/degrees.json";
 const OK = 200;
 
@@ -29,8 +28,10 @@ function createAndAppendDegreeArticle(obj) {
     document.getElementById("container").innerHTML += htmlMarkup;
 }
 
-/** Runs the program */
-window.onload = async function(e){ 
+/** Syncs the degrees from github json file */
+async function syncDegrees(){ 
+    document.querySelectorAll('.degree').forEach(e => e.remove());
+    document.querySelectorAll('.instructions').forEach(e => e.remove());
     const jsonObject = await fetchJson(JSON_URL);
     jsonObject.Degrees.forEach(createAndAppendDegreeArticle);
 }

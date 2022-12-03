@@ -1,5 +1,5 @@
 body {
-    background: #d9e1ec;
+    background: #a8dadc;
     font-family: "Source Code Pro", monospace;
     margin: 15px;
     font-size: 1rem;
@@ -8,29 +8,63 @@ body {
 #container {
     margin-right: auto;
     margin-left: auto;
-    width: 500px;
-
+    width: 50%;
 }
 
 h3 {
-    border-bottom: 2px solid;
-    width: 400px;
-    text-align: center;
+    width: 90%;
+    display: inline;
+    color: #1d3557;
 }
 
 h4 {
     text-align: center;
     margin: 0px;
     vertical-align: middle;
+    color: #1d3557;
 }
 
 article {
     background-image:
-      linear-gradient(180deg, white 2rem, #F0A4A4 calc(1rem), #F0A4A4 calc(2rem + 2px), transparent 1px),
-      repeating-linear-gradient(0deg, white, white 1.25rem, #DDD 1px, #DDD calc(1.25rem + 1px));
+      linear-gradient(180deg, white 2rem, #e63946 calc(1rem), #e63946 calc(2rem + 2px), transparent 1px),
+      repeating-linear-gradient(0deg, white, white 1.1rem, #DDD 1px, #DDD calc(1.1rem + 1px));
     box-shadow: 1px 1px 3px rgba(0,0,0,.25);
     height: 10rem;
-    width: 400px;
+    width: 90%;
     padding-left: 5px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.title {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #1d3557;
+    margin-bottom: 5px;
+}
+
+.instructions {
+    width: 100%;
+    text-align: center;
+}
+
+/* Sync Button */
+.btn {
+    border: none;
+    display:inline;
+    background-color: inherit;
+    padding-top: 0px;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    width: 10%;
+  }
+  .btn:hover {
+    background: #eee;
+  }
+  .success {
+    color: #e63946;
+  }
