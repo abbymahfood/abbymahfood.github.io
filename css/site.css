@@ -1,23 +1,13 @@
 body {
     background: #d9e1ec;
     font-family: "Source Code Pro", monospace;
-    margin: 0px;
-  }
+    margin: 15px;
+}
 
-  
-  /* Play Button */
-  .btn {
-    border: none;
-    background-color: inherit;
-    padding-top: 0px;
-    font-size: 12px;
-    cursor: pointer;
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .btn:hover {
-    background: #eee;
-  }
-  .success {
-    color: green;
-  }
+h3 {
+    border-bottom: 2px solid;
+}
+
+article {
+    border-bottom: 1px solid;
+}

@@ -1,21 +1,38 @@
-const URL = "https://abbym.sgedu.site";
-const JSON_URL = "https://abbym.sgedu.site/public_html/degrees.json";
+const URL = "https://abbymahfood.github.io";
+const JSON_URL = "https://abbymahfood.github.io/degrees.json";
+const OK = 200;
 
-async function getData(url = ''){
-    const response = await fetch(url, {
-        method: 'GET',
-        mode: 'cors',
-        cache: 'no-cache',
-        credentials: 'same-origin', 
-        headers: {
-            'Content-Type': 'application/json'
+/** Fetches a JSON doc from URL and returns JSON object */
+async function fetchJson(url = ''){
+    return await fetch(url)
+    .then((response) => {
+        if (response.ok && response.status == OK) {
+            return response.json();
         }
-    });
-    return response.json();
+        alert(`Fetch Failed: ${response.status}`);
+    })
+    .then((json) => {
+        return json;
+    })
+}
+
+/** Creates and appends html element */
+function createAndAppendDegreeArticle(obj) {
+    const htmlMarkup = `
+    <article class="degree">
+    <h4>${obj.Degree.School}</h4>
+    <p class="major">Major: ${obj.Degree.Major}</p>
+    <p class="type">Type: ${obj.Degree.Type}</p>
+    <p class="graduation">Graduation Year: ${obj.Degree.Graduation}</p>
+    </article>
+    `;
+    document.getElementById("container").innerHTML += htmlMarkup;
 }
 
 /** Runs the program */
-function runProgram() {
-    console.log("here");
-    console.log(getData(JSON_URL));
-};
+window.onload = async function(e){ 
+    const jsonObject = await fetchJson(JSON_URL);
+    jsonObject.Degrees.forEach(createAndAppendDegreeArticle);
+}
+
+
