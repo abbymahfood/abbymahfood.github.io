@@ -1,0 +1,20 @@
+{
+    "Degrees": [
+        {
+            "Degree": {
+                "School": "University of Florida",
+                "Major": "Computer Science Information And Engineering", 
+                "Type": "BS",
+                "Graduation": "2016"
+            }
+        }, 
+        {
+            "Degree": {
+                "School": "Boston University",
+                "Major": "Software Development", 
+                "Type": "MS",
+                "Graduation": "2024"
+            }
+        }
+    ]
+}
