@@ -4,7 +4,7 @@
             "Degree": {
                 "School": "University of Florida",
                 "Major": "Computer Science Information And Engineering", 
-                "Type": "BS",
+                "Type": "Bachelors of Science",
                 "Graduation": "2016"
             }
         }, 
@@ -12,7 +12,7 @@
             "Degree": {
                 "School": "Boston University",
                 "Major": "Software Development", 
-                "Type": "MS",
+                "Type": "Masters of Science",
                 "Graduation": "2024"
             }
         }
