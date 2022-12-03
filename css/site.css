@@ -50,6 +50,10 @@ article {
     text-align: center;
 }
 
+.degree {
+    width: 100%;
+}
+
 /* Sync Button */
 .btn {
     border: none;
