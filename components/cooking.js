@@ -4,6 +4,6 @@ const Cooking = {
   template: CookingTemplate,
 }
 
-import "@/css/cooking.css";
+import "../css/cooking.css";
 
 export { Cooking }

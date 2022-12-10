@@ -4,6 +4,6 @@ const Education = {
   template: EducationTemplate,
 }
 
-import "@/css/education.css";
+import "../css/education.css";
 
 export { Education }
