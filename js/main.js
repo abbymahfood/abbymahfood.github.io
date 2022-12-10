@@ -1,34 +1,34 @@
 import {
   Navbar
-} from './../components/navbar.js'
+} from './../components/navbar.js';
 
 import {
   Sidebar
-} from './../components/sidebar.js'
+} from './../components/sidebar.js';
 
 import {
   Footer
-} from './../components/footer.js'
+} from './../components/footer.js';
 
 import {
   About
-} from './../components/about.js'
+} from './../components/about.js';
 
 import {
   Education
-} from './../components/education.js'
+} from './../components/education.js';
 
 import {
   Cooking
-} from './../components/cooking.js'
+} from './../components/cooking.js';
 
 import {
   Pets
-} from './../components/pets.js'
+} from './../components/pets.js';
 
 import {
   MainTemplate
-} from './../templates/main-template.js'
+} from './../templates/main-template.js';
 
 const router = new VueRouter({
   routes: [
@@ -53,7 +53,7 @@ const router = new VueRouter({
       name: "Pets Page"
     }
   ]
-})
+});
 
 new Vue({
   el: '#app',
@@ -64,15 +64,6 @@ new Vue({
   },
   router,
   template: MainTemplate
-})
+});
 
-Vue.use(VueRouter)
-
-function scrollMeTo(refName) {
-  var element = this.$refs[refName];
-  var top = element.offsetTop;
-  window.scrollTo(0, top);
-}
-
-
-
+Vue.use(VueRouter);
