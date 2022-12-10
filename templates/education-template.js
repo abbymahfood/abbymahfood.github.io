@@ -2,31 +2,7 @@ const EducationTemplate = `
 <div class="main">
 <section>
   <img class="education-img" src="imgs/sammy/SammyWatchingLecture.jpeg" alt="Picture of my dog Sammy watching a BU MET Lecture with me.">
-  <div align = "center">
-    <section v-bind:schoolInfo = "schoolInfo">
-      <article v-for = "school in schoolInfo" :key = "schoolInfo">
-        <h4>{{school.Name}}</h4>
-        <p>Major: {{school.Major}}</p>
-        <p>Type: {{school.DegreeType}}</p>
-        <p>Graduation: {{school.Year}}</p>
-        <table v-bind:school.PastCourses = "school.PastCourses">
-          <tr>
-              <th>Code</th>
-              <th>Name</th>
-              <th>Completed</th>
-              <th>Type</th>
-          </tr>
-          <tr v-for = "pastCourse in school.PastCourses" :key = "school.PastCourses">
-              <td>{{ pastCourse.Code }} </td>
-              <td>{{ pastCourse.Name }} </td>
-              <td>{{ pastCourse.Completed}} </td>
-              <td>{{ pastCourse.Type }} </td>
-          </tr>
-        </table>
-      </article>
-    </section>
-  </div>
-  <h3 id="top">Current Studies</h3>
+  <h3 id="top">Current and Past Studies</h3>
   <p>
     I am studying Software Development at Boston University's
     Metropolitan College. I have completed 3 courses so far.
@@ -43,95 +19,69 @@ const EducationTemplate = `
     hurt. Below you will see my current progress and possible classes
     for the future.
   </p>
-  <table>
-    <caption>
-      Courses Completed
-    </caption>
-    <thead>
-      <tr>
-        <th>Number</th>
-        <th>Description</th>
-        <th>Completed</th>
-        <th>Professor</th>
-        <th>Type</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>MET CS 521</td>
-        <td>Info Structures with Python</td>
-        <td>Spring 1 2022</td>
-        <td>Lu</td>
-        <td>Required</td>
-      </tr>
-      <tr>
-        <td>MET CS 526</td>
-        <td>Data Structures and Algorithms</td>
-        <td>Spring 2 2022</td>
-        <td>Raghu</td>
-        <td>Required</td>
-      </tr>
-      <tr>
-        <td>MET CS 673</td>
-        <td>Software Engineering</td>
-        <td>Fall 1 2022</td>
-        <td>Zhang</td>
-        <td>Required</td>
-      </tr>
-      <tr>
-        <td>MET CS 601</td>
-        <td>Web Application Development</td>
-        <td>Fall 2 2022 (In Progress)</td>
-        <td>Looper</td>
-        <td>Elective</td>
-      </tr>
-    </tbody>
-  </table>
-  <br>
-  <table>
-    <caption>
-      Courses Left
-    </caption>
-    <thead>
-      <tr>
-        <th>Number</th>
-        <th>Description</th>
-        <th>Term</th>
-        <th>Professor</th>
-        <th>Type</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>MET CS 622</td>
-        <td>Advanced Programming Techniques</td>
-        <td>Spring 1 2023</td>
-        <td>Rawassizadeh</td>
-        <td>Required</td>
-      </tr>
-      <tr>
-        <td>MET CS 665</td>
-        <td>Software Design and Patterns</td>
-        <td>Spring 2 2023</td>
-        <td>Kalathur</td>
-        <td>Required</td>
-      </tr>
-      <tr>
-        <td>MET CS 602</td>
-        <td>Server-Side Web Development</td>
-        <td>Spring 1 2023</td>
-        <td>Orsini</td>
-        <td>Elective</td>
-      </tr>
-      <tr>
-        <td>MET CS 701</td>
-        <td>Rich Internet Application Dev</td>
-        <td>Spring 2 2023</td>
-        <td>Winderbaum</td>
-        <td>Elective</td>
-      </tr>
-    </tbody>
-  </table>
+  <p>
+    Below you'll find a all the schools I've attended along with past,
+    current, and future courses. 
+  </p>
+  <section v-bind:schoolInfo = "schoolInfo">
+      <article v-for = "school in schoolInfo" :key = "schoolInfo">
+        <h4>{{school.Name}}</h4>
+        <p>Major: {{school.Major}}</p>
+        <p>Type: {{school.DegreeType}}</p>
+        <p>Graduation: {{school.Year}}</p>
+        <h5>Past Courses</h5>
+        <section>
+          <table v-bind:school.PastCourses = "school.PastCourses">
+            <tr>
+                <th>Code</th>
+                <th>Name</th>
+                <th>Completed</th>
+                <th>Type</th>
+            </tr>
+            <tr v-for = "pastCourse in school.PastCourses" :key = "school.PastCourses">
+                <td>{{ pastCourse.Code }} </td>
+                <td>{{ pastCourse.Name }} </td>
+                <td>{{ pastCourse.Completed}} </td>
+                <td>{{ pastCourse.Type }} </td>
+            </tr>
+          </table>
+        </section>
+        <section v-if="school.CurrentCourses.length > 0">
+          <h5>Current Courses</h5>
+          <table v-bind:school.CurrentCourses = "school.CurrentCourses">
+            <tr>
+                <th>Code</th>
+                <th>Name</th>
+                <th>Completed</th>
+                <th>Type</th>
+            </tr>
+            <tr v-for = "currentCourse in school.CurrentCourses" :key = "school.CurrentCourses">
+                <td>{{ currentCourse.Code }} </td>
+                <td>{{ currentCourse.Name }} </td>
+                <td>{{ currentCourse.Completed}} </td>
+                <td>{{ currentCourse.Type }} </td>
+            </tr>
+          </table>
+        </section>
+        <section v-if="school.FutureCourses.length > 0">
+          <h5>Future Courses</h5>
+          <table v-bind:school.FutureCourses = "school.FutureCourses">
+            <tr>
+                <th>Code</th>
+                <th>Name</th>
+                <th>Completed</th>
+                <th>Type</th>
+            </tr>
+            <tr v-for = "futureCourse in school.FutureCourses" :key = "school.FutureCourses">
+                <td>{{ futureCourse.Code }} </td>
+                <td>{{ futureCourse.Name }} </td>
+                <td>{{ futureCourse.Completed}} </td>
+                <td>{{ futureCourse.Type }} </td>
+            </tr>
+          </table>
+        </section>
+      </article>
+    </section>
   <a id="top-link" @click="scrollMeTo()">Top</a>
 </section>
 </div>
