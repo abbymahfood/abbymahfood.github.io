@@ -351,9 +351,17 @@ body {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+  border-bottom: 1px solid #1d3557;
+
 }
 
+.experience-section ul {
+  margin: 8px;
+}
 
+.experience-section ul li {
+  margin: 2px;
+}
   .experience-header {
     display: flex;
     width: 100%;
