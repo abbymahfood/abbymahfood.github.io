@@ -20,7 +20,7 @@ const Education = {
         const error = (data && data.message) || response.statusText;
         return Promise.reject(error);
       }
-      this.schoolInfo = data.data.Schools;
+      this.schoolInfo = data.Schools;
     })
     .catch(error => {
       this.errorMessage = error;

@@ -4,7 +4,7 @@ const EducationTemplate = `
   <img class="education-img" src="imgs/sammy/SammyWatchingLecture.jpeg" alt="Picture of my dog Sammy watching a BU MET Lecture with me.">
   <div align = "center">
     <section v-bind:schoolInfo = "schoolInfo">
-      <article v-for = "school in schoolInfo.Schools" :key = "schoolInfo.Schools">
+      <article v-for = "school in schoolInfo" :key = "schoolInfo">
         <h4>{{school.Name}}</h4>
         <p>Major: {{school.Major}}</p>
         <p>Type: {{school.DegreeType}}</p>
