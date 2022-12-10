@@ -32,9 +32,9 @@ const ResumeTemplate = `
         <article v-for = "experience in resumeInfo.Experience" :key = "resumeInfo.Experience">
             <div class="experience-header">
                 <h4 style="float: left;">{{experience.Company}}</h4>
-                <p style="font-style:italic; float: right;"> - {{experience.Period}}</p>
+                <p style="width: 50%; font-style: italic; margin: 0px; text-align: right;">{{experience.Period}}</p>
             </div>
-            <p style="font-style:italic;">{{experience.Title}}</p>
+            <p style="font-style:italic; margin: 0px;">{{experience.Title}}</p>
             <ul>
                 <li v-for = "resp in experience.Responsibilities" :key = "experience.Responsibilities">{{resp}}</li>
             </ul>
