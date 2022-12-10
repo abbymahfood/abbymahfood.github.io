@@ -1,41 +1,37 @@
 {
-    "Skills" : [
-        {
-            "Languages": [
-                "C#", 
-                "C++", 
-                "HTML", 
-                "Java", 
-                "JavaScript", 
-                "Python", 
-                "Groovy", 
-                "JSON", 
-                "UML", 
-                "Selenium", 
-                "CSS", 
-                "MongoDB"
-            ], 
-            "Platforms": [
-                "Windows", 
-                "Mac", 
-                "RedHat", 
-                "Ubuntu"
-            ],
-            "Programs" : [
-                "Visual Studio", 
-                "QtCreator", 
-                "Atlassian Tool Suite", 
-                "MagicDraw", 
-                "PyCharm", 
-                "TIBCO", 
-                "Jenkins", 
-                "IntelliJ"
-            ], 
-            "Frameworks": [
-                "ASP.NET Core", 
-                "C#.NET"
-            ]
-        }
+    "Languages": [
+        "C#", 
+        "C++", 
+        "HTML", 
+        "Java", 
+        "JavaScript", 
+        "Python", 
+        "Groovy", 
+        "JSON", 
+        "UML", 
+        "Selenium", 
+        "CSS", 
+        "MongoDB"
+    ], 
+    "Platforms": [
+        "Windows", 
+        "Mac", 
+        "RedHat", 
+        "Ubuntu"
+    ],
+    "Programs" : [
+        "Visual Studio", 
+        "QtCreator", 
+        "Atlassian Tool Suite", 
+        "MagicDraw", 
+        "PyCharm", 
+        "TIBCO", 
+        "Jenkins", 
+        "IntelliJ"
+    ], 
+    "Frameworks": [
+        "ASP.NET Core", 
+        "C#.NET"
     ],
     "Education" : [
         {

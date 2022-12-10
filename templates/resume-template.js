@@ -4,7 +4,7 @@ const ResumeTemplate = `
         <h3 id="top">Software Skills</h3>
         <article>
             <h4>Languages</h4>
-            <p v-for = "language in resumeInfo.Skills.Languages" :key = "resumeInfo.Skills.Languages">{{language}}</p>
+            <p v-for = "language in resumeInfo.Languages" :key = "resumeInfo.Languages">{{language}}</p>
         </article>
         <a id="top-link" @click="scrollMeTo()">Top</a>
     </section>
