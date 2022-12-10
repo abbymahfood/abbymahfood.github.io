@@ -348,7 +348,7 @@ body {
 }
 
 .experience-section {
-  width: 75%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   border-bottom: 1px solid #1d3557;
@@ -381,7 +381,6 @@ body {
   .education-header {
     display: inline-block;
     width: 100%;
-    border-top: 1px solid #1d3557;
     padding-top: 5px;
     margin-top: 5px; 
   }
@@ -415,8 +414,15 @@ body {
     margin-top: 5px;
   }
 
-.resume-section-title {
-  border-bottom: 1px solid #1d3557;
-}
+  .resume-section-title {
+    padding: 15px 0px 15px 5px;
+    border-bottom: 1px solid #1d3557;
+    border-top: 1px solid #1d3557;
+  }
+  
+  .resume-section {
+      padding-bottom: 5px;
+  }
+  
 
   
