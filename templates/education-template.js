@@ -2,6 +2,9 @@ const EducationTemplate = `
 <div class="main">
 <section>
   <img class="education-img" src="imgs/sammy/SammyWatchingLecture.jpeg" alt="Picture of my dog Sammy watching a BU MET Lecture with me.">
+  <div v-text="name" 
+  style="text-align: center">
+</div>
   <div align = "center">
       <table v-bind:schoolInfo = "schoolInfo">
         <tr>

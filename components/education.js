@@ -1,8 +1,11 @@
 import { EducationTemplate } from '../templates/education-template.js'
 
 const Education = {
-  data: {
-    schoolInfo : []
+  data() {
+    return {
+      name: "This content is redered with the help of v-text directive",
+      schoolInfo: processLoad()
+    };
   },
   template: EducationTemplate,
   methods: {
@@ -27,6 +30,7 @@ const Education = {
     async processLoad() {
       const jsonObject = await fetchJson("https://abbymahfood.github.io/jsons/education.json");
       schoolInfo = jsonObject.Schools[0];
+      return schoolInfo;
     }
   },
   mounted(){
