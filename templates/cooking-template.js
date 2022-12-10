@@ -11,14 +11,14 @@ const CookingTemplate = `
     delicious food!
   </p>
 </section>
-<section class="main-flex">
+<section class="cooking-main-flex">
   <!-- Salmon Wellington Article -->
-  <article class="article-flex">
-    <div class="article-grid">
-      <h4 class="article-title">Salmon Wellington</h4>
-      <div class="article-contents">
-        <img class="article-photo" src="imgs/cooking/salmon_wellington.jpeg" alt="Abby's attempt at Salmon Wellington.">
-        <ul class="article-comments">
+  <article class="cooking-article-flex">
+    <div class="cooking-article-grid">
+      <h4 class="cooking-article-title">Salmon Wellington</h4>
+      <div class="cooking-article-contents">
+        <img class="cooking-article-photo" src="imgs/cooking/salmon_wellington.jpeg" alt="Abby's attempt at Salmon Wellington.">
+        <ul class="cooking-article-comments">
           <li>
             I was inspired to make this recipe when a co-worker said she
             had tried it and enjoyed it. I also enjoy anything with puff
@@ -29,7 +29,7 @@ const CookingTemplate = `
             the end. I think the puff pastry may have been too thin.
           </li>
           <li>
-            <a class="article-source" href="https://www.wellplated.com/salmon-wellington/">
+            <a class="cooking-article-source" href="https://www.wellplated.com/salmon-wellington/">
               Well Plated
             </a>                   
           </li>
@@ -38,12 +38,12 @@ const CookingTemplate = `
     </div>
   </article>
   <!-- Shrimp Stir-fry Article -->
-  <article class="article-flex">
-    <div class="article-grid">
-      <h4 class="article-title">Shrimp Stir-fry</h4>
-      <div class="article-contents">
-        <img class="article-photo" src="imgs/cooking/ShrimStirFry.jpg" alt="Abby's attempt at Shrimp Stir-fry.">
-        <ul class="article-comments">
+  <article class="cooking-article-flex">
+    <div class="cooking-article-grid">
+      <h4 class="cooking-article-title">Shrimp Stir-fry</h4>
+      <div class="cooking-article-contents">
+        <img class="cooking-article-photo" src="imgs/cooking/ShrimStirFry.jpg" alt="Abby's attempt at Shrimp Stir-fry.">
+        <ul class="cooking-article-comments">
           <li>
             This recipe was delicious! But I had a lot of help from
             other people at The Gathering Table.
@@ -54,7 +54,7 @@ const CookingTemplate = `
             experience was enjoyable.
           </li>
           <li>
-            <a class="article-source" href="https://gatheringtablefl.com/">
+            <a class="cooking-article-source" href="https://gatheringtablefl.com/">
               The Gathering Table
             </a>
           </li>
@@ -63,12 +63,12 @@ const CookingTemplate = `
     </div>
   </article>
   <!-- Sugar Free Cake Article -->
-  <article class="article-flex">
-    <div class="article-grid">
-      <h4 class="article-title">Sugar Free Vanilla Cake</h4>
-      <div class="article-contents">
-        <img class="article-photo" src="imgs/cooking/GolfCake.jpeg" alt="Abby's attempt at sugar free cake.">
-        <ul class="article-comments">
+  <article class="cooking-article-flex">
+    <div class="cooking-article-grid">
+      <h4 class="cooking-article-title">Sugar Free Vanilla Cake</h4>
+      <div class="cooking-article-contents">
+        <img class="cooking-article-photo" src="imgs/cooking/GolfCake.jpeg" alt="Abby's attempt at sugar free cake.">
+        <ul class="cooking-article-comments">
           <li>
             I made this cake for my partner's birthday. He likes golf so
             I made it golf-themed.
@@ -79,7 +79,7 @@ const CookingTemplate = `
           </li>
           <li>But it looked nice!</li>
           <li>
-            <a class="article-source" href="https://birchbenders.com/products/keto-classic-yellow-cake">
+            <a class="cooking-article-source" href="https://birchbenders.com/products/keto-classic-yellow-cake">
               Birch Benders
             </a>
           </li>
