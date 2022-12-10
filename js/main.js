@@ -1,14 +1,14 @@
 import {
     Navbar
-  } from './components/navbar.js'
+  } from './../components/navbar.js'
   
   import {
     MainTemplate
-  } from './templates/main-template.js'
+  } from './../templates/main-template.js'
 
   import {
     About
-  } from './templates/about-template.js'
+  } from './../templates/about-template.js'
 
 new Vue({
     el: '#app', // This should be the same as your <div id=""> from earlier.
@@ -25,7 +25,7 @@ new Vue({
     routes: [{
       path: '/about',
       component: About,
-      name: "About Us Page"
+      name: "About Page"
     }]
   })
 
