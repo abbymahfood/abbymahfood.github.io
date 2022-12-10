@@ -1,0 +1,112 @@
+{
+    "Skills" : [
+        {
+            "Languages": [
+                "C#", 
+                "C++", 
+                "HTML", 
+                "Java", 
+                "JavaScript", 
+                "Python", 
+                "Groovy", 
+                "JSON", 
+                "UML", 
+                "Selenium", 
+                "CSS", 
+                "MongoDB"
+            ], 
+            "Platforms": [
+                "Windows", 
+                "Mac", 
+                "RedHat", 
+                "Ubuntu"
+            ],
+            "Programs" : [
+                "Visual Studio", 
+                "QtCreator", 
+                "Atlassian Tool Suite", 
+                "MagicDraw", 
+                "PyCharm", 
+                "TIBCO", 
+                "Jenkins", 
+                "IntelliJ"
+            ], 
+            "Frameworks": [
+                "ASP.NET Core", 
+                "C#.NET"
+            ]
+        }
+    ],
+    "Education" : [
+        {
+            "Name": "Boston University",
+            "Major": "Software Development", 
+            "DegreeType": "Masters of Science",
+            "Graduation": "2024"
+        },
+        {
+            "Name": "University of Florida",
+            "Major": "Computer Science", 
+            "DegreeType": "Bachelors of Science",
+            "Graduation": "2016"
+        }
+    ],
+    "Experience": [
+        {
+            "Company": "Capital One",
+            "Title": "Senior Software Engineer",
+            "Period":"October 2022 - Present",
+            "Responsibilities" : [
+                "Work with a number of AWS Services to architect new solutions for customers.",
+                "Remediate any issues that come up."
+            ]
+        },
+        {
+            "Company": "L3Harris Technologies",
+            "Title": "Software Engineering Specialist & Senior Supervisor",
+            "Period":"July 2021 - October 2022",
+            "Responsibilities" : [
+                "Served as Software Technical Lead on team creating an ASP.NET Core data-entry web application using C#/.NET, MongoDB, DevExpress, and JavaScript which led to a $3M contract extension.",
+                "Lead architectural design of dynamic user configurability for web-application creating UI and backend support.",
+                "Stood up multiple functional tests using Selenium and unit/integration tests using MSTest.",
+                "Lead customer demos to understand needs of operators and converted feedback into actionable JIRA tickets.",
+                "Coordinated with project lead in order to manage JIRA backlog, sprint planning, demos, and retrospectives.",
+                "Received multiple recognitions for speed, going above and beyond, and creativity with UI work.",
+                "Served as a Campus Brand Manager liaison between the University of Florida and L3 Harris to organize recruiting events and manage staffing.",
+                "Acted as Group Lead for department which involves advocating for employees and helping them shape their career paths. "
+            ]
+        },
+        {
+            "Company": "Harris Corporation/L3Harris Technologies",
+            "Title": "Software Engineering Senior Associate",
+            "Period":"January 2018 - July 2021",
+            "Responsibilities" : [
+                "Collaborated in architectural re-design of legacy software application using MagicDraw.",
+                "Implemented an MVVM architectural structure working with RabbitMQ to pass data between C#/.NET applications and Python services in order to replace legacy Service Bus architecture.",
+                "Created Windows Service to run commands linked to Python scripts; this windows service would interact with our C#/.NET applications and stand up automated Python scripts 80% faster than other C# alternatives.",
+                "Used TIBCO and IronPython to create service that gathered data from MySQL databases and embedded hardware; data was formatted into JSON and packaged to be ingested by a proprietary web application.",
+                "Updated legacy software to allow hardware chassis to have a variable number of slots for circuit card assemblies. This involved re-mapping of chassis slot registers and updating legacy C++ files to allow for variability.",
+                "Created automated test suites using SoapUI and Groovy allowing for the software to be sold-off within schedule; saving budget and time."
+            ]
+        },
+        {
+            "Company": "Harris Corporation",
+            "Title": "Software Engineering Associate",
+            "Period":"June 2016 - January 2018",
+            "Responsibilities" : [
+                "Developed front and back end of a custom control test console with PyQT.",
+                "Console ingested CSV files and automatically ran tests while monitoring health of embedded hardware. This allowed for unattended hardware testing and reduced a 73-business day test procedure to 14-calendar days.",
+                "Updated and maintained embedded software unit tests and ported circuit card assemblies from RHEL to Ubuntu. "
+            ]
+        },
+        {
+            "Company": "Harris Corporation",
+            "Title": "Intern",
+            "Period":"May 2015 - August 2015",
+            "Responsibilities" : [
+                "Created a Python Script Analyzer app to be used in association with TIBCO and proprietary DLL files; this app assisted developers in creating Iron Python scripts that were compliant with proprietary DLL files. The Python Script Analyzer is still in use by developers today."
+            ]
+        }
+    ]
+
+}
