@@ -347,6 +347,13 @@ body {
     width: 100%;
 }
 
+.experience-section {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
   .experience-header {
     display: flex;
     width: 100%;
@@ -356,13 +363,19 @@ body {
     margin-top: 5px;
   }
 
-  .education-header {
+  .education-section {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+  }
+
+  .education-header {
+    display: inline-block;
     width: 100%;
-    text-align: left;
     border-top: 1px solid #1d3557;
     padding-top: 5px;
-    margin-top: 5px;
+    margin-top: 5px; 
   }
 
   .education-article {
@@ -372,6 +385,20 @@ body {
     margin-right: auto;
   }
 
+.education-article p{
+  margin: 0px;
+}
+
+.education-article .education-header p{
+  font-style: italic;
+  display: inline-block;
+}
+
+.education-article .education-header h4{
+  display: inline-block;
+}
+  
+
   .skills-header {
     width: 100%;
     text-align: left;
@@ -380,6 +407,8 @@ body {
     margin-top: 5px;
   }
 
-
+.resume-section-title {
+  border-bottom: 1px solid #1d3557;
+}
 
   

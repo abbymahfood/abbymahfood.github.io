@@ -1,8 +1,8 @@
 const ResumeTemplate = `
 <div class="main">
     <section v-bind:experience = "experience">
-        <h3 id="top">Experience</h3>
-        <article v-if="experience" v-for = "exp in experience" :key = "experience">
+        <h3 id="top" class="resume-section-title">Experience</h3>
+        <article class="experience-section" v-if="experience" v-for = "exp in experience" :key = "experience">
             <div class="experience-header">
                 <h4 style="width: 50%;">{{exp.Company}}</h4>
                 <p style="width: 50%; font-style: italic; margin: 0px; text-align: right;">{{exp.Period}}</p>
@@ -14,20 +14,20 @@ const ResumeTemplate = `
         </article> 
     </section>
     <section v-bind:education = "education">
-        <h3 id="top">Education</h3>
-        <div style="display: flex;">
+        <h3 id="top" class="resume-section-title">Education</h3>
+        <div class="education-section">
             <article class="education-article" v-if="education" v-for = "edu in education" :key = "education">
                 <div class="education-header">
-                    <h4>{{edu.Name}}</h4>
-                    <p style="font-style: italic;"> ({{edu.Graduation}})</p>
+                    <h4">{{edu.Name}}</h4>
+                    <p> ({{edu.Graduation}})</p>
                 </div>
-                <p style="font-style:italic;">{{edu.Major}}</p>
+                <p>{{edu.Major}}</p>
                 <p>{{edu.DegreeType}}</p>
             </article> 
         </div>
     </section>
     <section>
-    <h3 id="top">Software Skills</h3>
+    <h3 id="top" class="resume-section-title">Software Skills</h3>
     <article v-if="languages">
         <h4 class="skills-header">Languages</h4>
         <div class="skillset">
