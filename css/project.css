@@ -19,6 +19,7 @@ body {
   h3,
   h4 {
     color: #26364a;
+    margin: 0px;
   }
   
   table,
@@ -275,7 +276,7 @@ body {
   }
   
   ul li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .education-img {

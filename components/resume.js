@@ -21,7 +21,6 @@ const Resume = {
         return Promise.reject(error);
       }
       this.resumeInfo = data;
-      console.log(data);
     })
     .catch(error => {
       this.errorMessage = error;
