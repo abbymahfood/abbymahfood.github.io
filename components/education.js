@@ -6,8 +6,9 @@ const Education = {
     scrollMeTo(refName) {
       var element = this.$refs[refName];
       var top = element.offsetTop;
-      window.focus();
-      window.scrollTo(0, top);
+      var scrollArea = document.getElementsByClassName("main")[0];
+      scrollArea.focus();
+      scrollArea.scrollTo(0, top);
     }
   }
 }
