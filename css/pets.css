@@ -1,0 +1,56 @@
+.pet-flex {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+.pet {
+  width: calc(25% - 10px);
+  margin: 5px;
+  border-top: 2px solid #8ea6c5;
+}
+.article-line {
+  text-align: left;
+}
+.pet-field {
+  font-style: italic;
+  display: inline;
+  text-align: left;
+}
+.pet-value {
+  display: inline;
+  text-align: left;
+}
+.article-grid {
+  display: grid;
+  grid-template-columns: 90%;
+  grid-template-rows: 60px max-content max-content;
+  grid-template-areas:
+    "article-title"
+    "article-photo"
+    "article-comments";
+}
+
+.article-title {
+  grid-area: article-title;
+}
+
+.article-photo {
+  width: 90%;
+  grid-area: article-photo;
+}
+
+.article-comments {
+  width: fit-content;
+  height: fit-content;
+  grid-area: article-comments;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .pet {
+    min-width: 300px;
+  }
+}

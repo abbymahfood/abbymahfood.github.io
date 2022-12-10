@@ -1,0 +1,53 @@
+.main-flex {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.article-flex {
+  width: fit-content;
+  height: fit-content;
+  margin: 10px;
+}
+
+.article-grid {
+  display: grid;
+  margin: 0px;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 60px max-content;
+  grid-template-areas:
+    "recipe-title"
+    "recipe-notes";
+  border-top: 2px solid #8ea6c5;
+}
+
+.article-title {
+  grid-area: recipe-title;
+}
+
+.article-contents {
+  grid-area: recipe-notes;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.article-source {
+  font-style: italic;
+}
+
+.article-photo {
+  width: fit-content;
+  height: fit-content;
+}
+
+.article-comments {
+  width: fit-content;
+  height: fit-content;
+  list-style-type: none;
+  margin-left: 20px;
+  padding-left: 5px;
+}
+
+ul li {
+  margin-bottom: 20px;
+}

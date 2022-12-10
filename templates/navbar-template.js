@@ -2,7 +2,7 @@ const NavbarTemplate = `
 <header>
 <nav>
   <p>
-    <a href="#/about">About</a>
+    <a href="#/">About</a>
   </p>
   <p>
     <a href="#/education">Education</a>
