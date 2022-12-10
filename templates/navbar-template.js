@@ -5,13 +5,13 @@ const NavbarTemplate = `
     <a href="#/about">About</a>
   </p>
   <p>
-    <a href="pages/education.html">Education</a>
+    <a href="#/education">Education</a>
   </p>
   <p>
-    <a href="pages/pets.html">Pets</a>
+    <a href="#/pets">Pets</a>
   </p>
   <p>
-    <a href="pages/cooking.html">Cooking</a>
+    <a href="#/cooking">Cooking</a>
   </p>
 </nav>
 </header>`
