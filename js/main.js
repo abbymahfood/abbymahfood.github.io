@@ -3,6 +3,10 @@ import {
 } from './../components/navbar.js'
 
 import {
+  Sidebar
+} from './../components/sidebar.js'
+
+import {
   MainTemplate
 } from './../templates/main-template.js'
 
@@ -21,7 +25,8 @@ const router = new VueRouter({
 new Vue({
   el: '#app', // This should be the same as your <div id=""> from earlier.
   components: {
-    'navbar': Navbar
+    'navbar': Navbar,
+    'sidebar': Sidebar
   },
   router,
   template: MainTemplate

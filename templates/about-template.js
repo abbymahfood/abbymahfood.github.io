@@ -1,4 +1,5 @@
-const AboutTemplate = `    <div class="main">
+const AboutTemplate = `
+<div class="main">
 <section>
   <video class="video-center" controls="controls">
     <source src="videos/newyork_kayaking_encoded.mp4">

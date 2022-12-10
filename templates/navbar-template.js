@@ -1,10 +1,8 @@
 const NavbarTemplate = `
 <header>
 <nav>
-    <a href="#/">Home</a>
-    <a href="#/about">About</a>
   <p>
-    <a href="home.html">Home</a>
+    <a href="#/about">About</a>
   </p>
   <p>
     <a href="pages/education.html">Education</a>
