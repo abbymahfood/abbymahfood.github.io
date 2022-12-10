@@ -1,0 +1,441 @@
+{
+    "Schools" : [
+        {
+            "Name": "Boston University",
+            "Major": "Software Development", 
+            "DegreeType": "Masters of Science",
+            "Graduation": "2024",
+            "PastCourses": [
+                {
+                    "Code": "MET CS 521",
+                    "Name": "Info Structures with Python",
+                    "Completed": "Spring 1 2022",
+                    "Professor": "Lu",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "MET CS 526",
+                    "Name": "Data Structures and Algorithms",
+                    "Completed": "Spring 2 2022",
+                    "Professor": "Raghu",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "MET CS 673",
+                    "Name": "Software Engineering",
+                    "Completed": "Fall 1 2022",
+                    "Professor": "Zhang",
+                    "Type": "Required"
+                }
+            ],
+            "CurrentCourses": [
+                {
+                    "Code": "MET CS 601",
+                    "Name": "Web Application Development",
+                    "Completed": "Fall 2 2022",
+                    "Professor": "Looper",
+                    "Type": "Elective"
+                }
+            ],
+            "FutureCourses": [
+                {
+                    "Code": "MET CS 622",
+                    "Name": "Advanced Programming Techniques",
+                    "Completed": "Spring 1 2023",
+                    "Professor": "Rawassizadeh",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "MET CS 665",
+                    "Name": "Software Design and Patterns",
+                    "Completed": "Spring 2 2023",
+                    "Professor": "Kalathur",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "TBD",
+                    "Name": "TBD",
+                    "Completed": "Spring 1 2024",
+                    "Professor": "TBD",
+                    "Type": "Elective"
+                },
+                {
+                    "Code": "TBD",
+                    "Name": "TBD",
+                    "Completed": "Spring 2 2024",
+                    "Professor": "TBD",
+                    "Type": "Elective"
+                }
+            ]
+        },
+        {
+            "Name": "University of Florida",
+            "Major": "Computer Science", 
+            "DegreeType": "Bachelors of Science",
+            "Graduation": "2016",
+            "PastCourses": [
+                {
+                    "Code": "CHM1025",
+                    "Name": "Intro to Chemistry",
+                    "Completed": "Summer 2011",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "SYG2010",
+                    "Name": "Social Problems",
+                    "Completed": "Summer 2011",
+                    "Professor": "",
+                    "Type": "Humanities"
+                },
+                {
+                    "Code": "SYG2430",
+                    "Name": "Marriage and Family",
+                    "Completed": "Summer 2011",
+                    "Professor": "",
+                    "Type": "Humanities"
+                },
+                {
+                    "Code": "CHM2045L",
+                    "Name": "General Chemistry Lab",
+                    "Completed": "Fall 2011",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "CHM2095",
+                    "Name": "Chm for Engineers 1",
+                    "Completed": "Fall 2011",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "EGN1002",
+                    "Name": "Intro to Engineering",
+                    "Completed": "Fall 2011",
+                    "Professor": "",
+                    "Type": "Elective"
+                },
+                {
+                    "Code": "MAC2313",
+                    "Name": "Analyt Geom & Calc 3",
+                    "Completed": "Fall 2011",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "MUH2501",
+                    "Name": "Intro to World Musics",
+                    "Completed": "Fall 2011",
+                    "Professor": "",
+                    "Type": "Humanities"
+                },
+                {
+                    "Code": "CHM2046",
+                    "Name": "Gen Chem & Qual Analy",
+                    "Completed": "Spring 2012",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "CHM2046",
+                    "Name": "Gen Chem & Qual Analy",
+                    "Completed": "Spring 2012",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "CHM2046L",
+                    "Name": "Gen Chem Qual Anly Lb",
+                    "Completed": "Spring 2012",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "ECO2023",
+                    "Name": "Prin Microeconomics",
+                    "Completed": "Spring 2012",
+                    "Professor": "",
+                    "Type": "Elective"
+                },
+                {
+                    "Code": "ENC3254",
+                    "Name": "Prof Comm Engineers",
+                    "Completed": "Spring 2012",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "MAP2302",
+                    "Name": "Elem Diff Equations",
+                    "Completed": "Spring 2012",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "PHY2048",
+                    "Name": "Physics With Calc 1",
+                    "Completed": "Summer 2012",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "ESI4567C",
+                    "Name": "Matrix/Numeric Method",
+                    "Completed": "Summer 2012",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "EIN3101C",
+                    "Name": "Intro Indus & Systems",
+                    "Completed": "Fall 2012",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "EML2023",
+                    "Name": "Compu Aided Graph/Des",
+                    "Completed": "Fall 2012",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "MAR3023",
+                    "Name": "Prin of Marketing",
+                    "Completed": "Fall 2012",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "PHY2049",
+                    "Name": "Physics With Calc 2",
+                    "Completed": "Fall 2012",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "EIN4354",
+                    "Name": "Engineering Economy",
+                    "Completed": "Spring 2013",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "EMA3010",
+                    "Name": "Materials",
+                    "Completed": "Spring 2013",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "MAN3025",
+                    "Name": "Prin of Management",
+                    "Completed": "Spring 2013",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "STA4321",
+                    "Name": "Intro to Probability",
+                    "Completed": "Spring 2013",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "AEB3341",
+                    "Name": "Selling Strategically",
+                    "Completed": "Summer 2013",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "COP2271",
+                    "Name": "Com Prg Engs Vb.Net",
+                    "Completed": "Summer 2013",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "COP2271L",
+                    "Name": "Com Prg Engr Vb.Net L",
+                    "Completed": "Summer 2013",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "EEL3003",
+                    "Name": "Elements Elect Engr",
+                    "Completed": "Fall 2013",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "EGM2511",
+                    "Name": "Engr Mech-Statics",
+                    "Completed": "Fall 2013",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "EGN4930",
+                    "Name": "Sales Engineering Sem",
+                    "Completed": "Fall 2013",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "EML3007",
+                    "Name": "El Thermo Heat Transf",
+                    "Completed": "Fall 2013",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "STA4322",
+                    "Name": "Intro Statistics Thry",
+                    "Completed": "Fall 2013",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "AEC3033C",
+                    "Name": "Research/Busines Writ",
+                    "Completed": "Spring 2014",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "COP3502",
+                    "Name": "Prog Fundamentals 1",
+                    "Completed": "Spring 2014",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "EEL3111C",
+                    "Name": "Circuits 1",
+                    "Completed": "Spring 2014",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "EEL3135",
+                    "Name": "Intro Signals/Systems",
+                    "Completed": "Spring 2014",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "EEL3701C",
+                    "Name": "Digit Logic/Compu Sys",
+                    "Completed": "Summer 2014",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "CIS4930",
+                    "Name": "Interaction Design",
+                    "Completed": "Fall 2014",
+                    "Professor": "",
+                    "Type": "Elective"
+                },
+                {
+                    "Code": "COP3503",
+                    "Name": "Prog Fundamentals 2",
+                    "Completed": "Fall 2014",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "COT3100",
+                    "Name": "Appli Discrete Struc",
+                    "Completed": "Fall 2014",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "CDA3101",
+                    "Name": "Intro to Compu Orgnzn",
+                    "Completed": "Spring 2015",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "COM1000",
+                    "Name": "Intro Communica Stu",
+                    "Completed": "Spring 2015",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "COP3530",
+                    "Name": "Data Struc/Algorithms",
+                    "Completed": "Spring 2015",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "COT4501",
+                    "Name": "Num Analys Computa",
+                    "Completed": "Spring 2015",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "CEN3031",
+                    "Name": "Intro Software Engr",
+                    "Completed": "Fall 2015",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "CIS4204",
+                    "Name": "Penetration Testing",
+                    "Completed": "Fall 2015",
+                    "Professor": "",
+                    "Type": "Elective"
+                },
+                {
+                    "Code": "CIS4301",
+                    "Name": "Info & Database Sys 1",
+                    "Completed": "Fall 2015",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "COP4600",
+                    "Name": "Operating Systems",
+                    "Completed": "Fall 2015",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "CAP3032",
+                    "Name": "Interact Mod/Animat 1",
+                    "Completed": "Spring 2016",
+                    "Professor": "",
+                    "Type": "Elective"
+                },
+                {
+                    "Code": "CIS4914",
+                    "Name": "Senior Project",
+                    "Completed": "Spring 2016",
+                    "Professor": "",
+                    "Type": "Required"
+                },
+                {
+                    "Code": "CNT4007C",
+                    "Name": "Compu Netwrk Fundamen",
+                    "Completed": "Spring 2016",
+                    "Professor": "",
+                    "Type": "Required"
+                }
+            ],
+            "CurrentCourses": [
+            ],
+            "FutureCourses": [
+            ]
+        }
+    ]           
+}

@@ -48,7 +48,7 @@ body {
     background-color: #354b68;
     border-bottom: 2px solid #8ea6c5;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
   }
   
   nav p {

@@ -1,0 +1,4 @@
+const MessagesTemplate = `
+`
+
+export { MessagesTemplate }

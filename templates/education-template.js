@@ -2,6 +2,22 @@ const EducationTemplate = `
 <div class="main">
 <section>
   <img class="education-img" src="imgs/sammy/SammyWatchingLecture.jpeg" alt="Picture of my dog Sammy watching a BU MET Lecture with me.">
+  <div align = "center">
+      <table v-bind:schoolInfo = "schoolInfo">
+        <tr>
+            <th>Code</th>
+            <th>Name</th>
+            <th>Completed</th>
+            <th>Type</th>
+        </tr>
+        <tr v-for = "pastCourse in schoolInfo.PastCourses" :key = "schoolInfo.PastCourses">
+            <td>{{ pastCourse.Code }} </td>
+            <td>{{ pastCourse.Name }} </td>
+            <td>{{ pastCourse.Completed}} </td>
+            <td>{{ pastCourse.Type }} </td>
+        </tr>
+     </table>
+    </div>
   <h3 id="top">Current Studies</h3>
   <p>
     I am studying Software Development at Boston University's
@@ -51,7 +67,7 @@ const EducationTemplate = `
         <td>MET CS 673</td>
         <td>Software Engineering</td>
         <td>Fall 1 2022</td>
-        <td>Raghu</td>
+        <td>Zhang</td>
         <td>Required</td>
       </tr>
       <tr>

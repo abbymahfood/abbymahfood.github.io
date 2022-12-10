@@ -1,0 +1,4 @@
+const ResumeTemplate = `
+`
+
+export { ResumeTemplate }

@@ -27,6 +27,14 @@ import {
 } from './../components/pets.js';
 
 import {
+  Resume
+} from './../components/resume.js';
+
+import {
+  Messages
+} from './../components/messages.js';
+
+import {
   MainTemplate
 } from './../templates/main-template.js';
 
@@ -51,6 +59,16 @@ const router = new VueRouter({
       path: '/pets',
       component: Pets,
       name: "Pets Page"
+    },
+    {
+      path: '/resume',
+      component: Resume,
+      name: "Resume Page"
+    },
+    {
+      path: '/messages',
+      component: Messages,
+      name: "Messages Page"
     }
   ]
 });

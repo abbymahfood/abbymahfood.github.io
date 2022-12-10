@@ -5,6 +5,9 @@ const NavbarTemplate = `
     <a href="#/">About</a>
   </p>
   <p>
+    <a href="#/resume">R&eacute;sum&eacute;</a>
+  </p>
+  <p>
     <a href="#/education">Education</a>
   </p>
   <p>
@@ -12,6 +15,9 @@ const NavbarTemplate = `
   </p>
   <p>
     <a href="#/cooking">Cooking</a>
+  </p>
+  <p>
+    <a href="#/messages">Messages</a>
   </p>
 </nav>
 </header>`
