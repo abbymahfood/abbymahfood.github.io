@@ -2,7 +2,7 @@ const EducationTemplate = `
 <div class="main">
 <section>
   <img class="education-img" src="imgs/sammy/SammyWatchingLecture.jpeg" alt="Picture of my dog Sammy watching a BU MET Lecture with me.">
-  <h3 id="top">Current Studies</h3>
+  <h3 id="top" ref="top">Current Studies</h3>
   <p>
     I am studying Software Development at Boston University's
     Metropolitan College. I have completed 3 courses so far.
@@ -108,7 +108,7 @@ const EducationTemplate = `
       </tr>
     </tbody>
   </table>
-  <a href="#top">Top</a>
+  <a @click="scrollMeTo('top')>Top</a>
 </section>
 </div>
 `
