@@ -7,12 +7,12 @@ import {
 } from './../components/sidebar.js'
 
 import {
-  MainTemplate
-} from './../templates/main-template.js'
+  About
+} from './../components/about.js'
 
 import {
-  AboutTemplate
-} from './../templates/about-template.js'
+  MainTemplate
+} from './../templates/main-template.js'
 
 const router = new VueRouter({
   routes: [{
