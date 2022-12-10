@@ -4,7 +4,12 @@ const Resume = {
   template: ResumeTemplate,
   data() {
     return {
-      resumeInfo: null,
+      experience: null,
+      education: null,
+      languages: null,
+      programs: null,
+      platforms: null,
+      frameworks: null,
       errorMessage: null
     };
   },
@@ -20,7 +25,13 @@ const Resume = {
         const error = (data && data.message) || response.statusText;
         return Promise.reject(error);
       }
-      this.resumeInfo = data;
+      this.experience = data.Experience;
+      this.education = data.Education;
+      this.languages = data.Languages;
+      this.programs = data.Programs;
+      this.platforms = data.Platforms;
+      this.frameworks = data.Frameworks;
+      console.log(data.Experience);
     })
     .catch(error => {
       this.errorMessage = error;

@@ -1,62 +1,62 @@
 const ResumeTemplate = `
 <div class="main">
-    <section v-bind:resumeInfo = "resumeInfo">
+    <section v-bind:experience = "experience">
         <h3 id="top">Experience</h3>
-        <article v-if="resumeInfo.Experience" v-for = "experience in resumeInfo.Experience" :key = "resumeInfo.Experience">
+        <article v-if="experience" v-for = "exp in experience" :key = "experience">
             <div class="experience-header">
-                <h4 style="width: 50%;">{{experience.Company}}</h4>
-                <p style="width: 50%; font-style: italic; margin: 0px; text-align: right;">{{experience.Period}}</p>
+                <h4 style="width: 50%;">{{exp.Company}}</h4>
+                <p style="width: 50%; font-style: italic; margin: 0px; text-align: right;">{{exp.Period}}</p>
             </div>
-            <p style="font-style:italic; margin: 0px;">{{experience.Title}}</p>
+            <p style="font-style:italic; margin: 0px;">{{exp.Title}}</p>
             <ul>
-                <li v-for = "resp in experience.Responsibilities" :key = "experience.Responsibilities">{{resp}}</li>
+                <li v-for = "resp in exp.Responsibilities" :key = "exp.Responsibilities">{{resp}}</li>
             </ul>
         </article> 
     </section>
-    <section v-bind:resumeInfo = "resumeInfo">
+    <section v-bind:education = "education">
         <h3 id="top">Education</h3>
         <div style="display: flex;">
-            <article v-if="resumeInfo.Education" v-for = "education in resumeInfo.Education" :key = "resumeInfo.Education">
+            <article v-if="education" v-for = "edu in education" :key = "education">
                 <div class="education-header">
-                    <h4 style="width: 50%;">{{education.Name}}</h4>
-                    <p style="width: 50%; font-style: italic; margin: 0px; text-align: right;">{{education.Graduation}}</p>
+                    <h4 style="width: 50%;">{{edu.Name}}</h4>
+                    <p style="width: 50%; font-style: italic; margin: 0px; text-align: right;">{{edu.Graduation}}</p>
                 </div>
-                <p style="font-style:italic; margin: 0px;">{{education.Major}}</p>
-                <p style="margin: 0px;">{{education.DegreeType}}</p>
+                <p style="font-style:italic; margin: 0px;">{{edu.Major}}</p>
+                <p style="margin: 0px;">{{edu.DegreeType}}</p>
             </article> 
         </div>
     </section>
-    <section v-bind:resumeInfo = "resumeInfo">
+    <section>
     <h3 id="top">Software Skills</h3>
-    <article v-if="resumeInfo.Languages">
+    <article v-if="languages">
         <h4>Languages</h4>
         <div class="skillset">
             <ul>
-                <li v-for = "language in resumeInfo.Languages" :key = "resumeInfo.Languages">{{language}}</li>
+                <li v-for = "lang in languages" :key = "languages">{{lang}}</li>
             </ul>
         </div>
     </article>
-    <article v-if="resumeInfo.Platforms">
+    <article v-if="platforms">
         <h4>Platforms</h4>
         <div class="skillset">
             <ul>
-                <li v-for = "platform in resumeInfo.Platforms" :key = "resumeInfo.Platforms">{{platform}}</li>
+                <li v-for = "plat in platforms" :key = "platforms">{{plat}}</li>
             </ul>
         </div>
     </article>
-    <article v-if="resumeInfo.Frameworks">
+    <article v-if="frameworks">
         <h4>Frameworks</h4>
         <div class="skillset">
             <ul>
-                <li v-for = "framework in resumeInfo.Frameworks" :key = "resumeInfo.Frameworks">{{framework}}</li>
+                <li v-for = "fw in frameworks" :key = "frameworks">{{fw}}</li>
             </ul>
         </div>
     </article>
-    <article v-if="resumeInfo.Programs"> 
+    <article v-if="programs"> 
         <h4>Programs</h4>
         <div class="skillset">
             <ul>
-                <li v-for = "program in resumeInfo.Programs" :key = "resumeInfo.Programs">{{program}}</li>
+                <li v-for = "prog in programs" :key = "programs">{{prog}}</li>
             </ul>
         </div>
     </article>

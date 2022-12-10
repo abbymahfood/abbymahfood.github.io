@@ -356,5 +356,15 @@ body {
     margin-top: 5px;
   }
 
+  .education-header {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    border-top: 1px solid #1d3557;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+
+
 
   
