@@ -108,7 +108,7 @@ const EducationTemplate = `
       </tr>
     </tbody>
   </table>
-  <a @click="scrollMeTo('top')">Top</a>
+  <a id="top-link" @click="scrollMeTo('top')">Top</a>
 </section>
 </div>
 `

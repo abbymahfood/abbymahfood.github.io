@@ -26,6 +26,12 @@ body {
   td {
     border: 1px solid #8ea6c5;
   }
+
+  #top-link {
+    cursor:pointer;
+    color:#26364a;
+    text-decoration:underline;
+  }
   
   caption {
     font-weight: bold;
