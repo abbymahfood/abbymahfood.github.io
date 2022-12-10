@@ -67,7 +67,7 @@ const PetsTemplate = `
             </div>
         </article>
     </section>
-    <a href="#top">Top</a>
+    <a id="top-link" @click="scrollMeTo()">Top</a>
 </section>
 </div>
 `

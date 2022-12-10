@@ -88,7 +88,7 @@ const CookingTemplate = `
     </div>
   </article>
 </section>
-<a href="#top">Top</a>
+<a id="top-link" @click="scrollMeTo()">Top</a>
 </div>`
 
 export { CookingTemplate }
