@@ -26,41 +26,41 @@ const PetsTemplate = `
         first up when it comes to feeding time. 
     </p>
     <section class="pet-flex">
-        <article class="article-grid pet">
-            <h4 class="article-title">Patch - Adopted 2017</h4>
-            <img class="article-photo" src="imgs/patch/Patch.jpeg" alt="Picture of Patch the cat sitting.">
-            <div class="article-comments">
-                <div class="article-line">
+        <article class="pet-article-grid pet">
+            <h4 class="pet-article-title">Patch - Adopted 2017</h4>
+            <img class="pet-article-photo" src="imgs/patch/Patch.jpeg" alt="Picture of Patch the cat sitting.">
+            <div class="pet-article-comments">
+                <div class="pet-article-line">
                     <p class="pet-field">Breed: </p>
                     <p class="pet-value">Black Cat</p>
                 </div>
             </div>
         </article>
-        <article class="article-grid pet">
-            <h4 class="article-title">Sammy - Adopted 2018</h4>
-            <img class="article-photo" src="imgs/sammy/Sammy.jpeg" alt="Picture of Sammy the dog sleeping.">
-            <div class="article-comments">
-                <div class="article-line">
+        <article class="pet-article-grid pet">
+            <h4 class="pet-article-title">Sammy - Adopted 2018</h4>
+            <img class="pet-article-photo" src="imgs/sammy/Sammy.jpeg" alt="Picture of Sammy the dog sleeping.">
+            <div class="pet-article-comments">
+                <div class="pet-article-line">
                     <p class="pet-field">Breed: </p>
                     <p class="pet-value">German Shepard/Akita Mix</p>
                 </div>
             </div>
         </article>
-        <article class="article-grid pet">
-            <h4 class="article-title">Nea - Adopted 2018</h4>
-            <img class="article-photo" src="imgs/nea/Nea.jpeg" alt="Picture of Sammy the dog sleeping.">
-            <div class="article-comments">
-                <div class="article-line">
+        <article class="pet-article-grid pet">
+            <h4 class="pet-article-title">Nea - Adopted 2018</h4>
+            <img class="pet-article-photo" src="imgs/nea/Nea.jpeg" alt="Picture of Sammy the dog sleeping.">
+            <div class="pet-article-comments">
+                <div class="pet-article-line">
                     <p class="pet-field">Breed: </p>
                     <p class="pet-value">Black Mouth Cur</p>
                 </div>
             </div>
         </article>
-        <article class="article-grid pet">
-            <h4 class="article-title">Winston - Adopted 2019</h4>
-            <img class="article-photo" src="imgs/winston/Winston.jpeg" alt="Picture of Sammy the dog sleeping.">
-            <div class="article-comments">
-                <div class="article-line">
+        <article class="pet-article-grid pet">
+            <h4 class="pet-article-title">Winston - Adopted 2019</h4>
+            <img class="pet-article-photo" src="imgs/winston/Winston.jpeg" alt="Picture of Sammy the dog sleeping.">
+            <div class="pet-article-comments">
+                <div class="pet-article-line">
                     <p class="pet-field">Breed: </p>
                     <p class="pet-value">Maine Coon Mix</p>
                 </div>
