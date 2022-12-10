@@ -7,7 +7,7 @@ import {
   } from './../templates/main-template.js'
 
   import {
-    About
+    AboutTemplate
   } from './../templates/about-template.js'
 
 new Vue({
@@ -24,7 +24,7 @@ new Vue({
   const router = new VueRouter({
     routes: [{
       path: '/about',
-      component: About,
+      component: AboutTemplate,
       name: "About Page"
     }]
   })
