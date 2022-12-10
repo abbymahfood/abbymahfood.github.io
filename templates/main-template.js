@@ -1,9 +1,10 @@
 
 const MainTemplate = `
-<div>
+<div class="wrapper">
 <navbar></navbar>
-<sidebar></sidebar>
 <router-view></router-view>
+<sidebar></sidebar>
+<footerbar></footerbar>
 </div>
 `
 

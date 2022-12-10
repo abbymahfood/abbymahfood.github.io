@@ -7,6 +7,10 @@ import {
 } from './../components/sidebar.js'
 
 import {
+  Footer
+} from './../components/footer.js'
+
+import {
   About
 } from './../components/about.js'
 
@@ -23,10 +27,11 @@ const router = new VueRouter({
 })
 
 new Vue({
-  el: '#app', // This should be the same as your <div id=""> from earlier.
+  el: '#app',
   components: {
     'navbar': Navbar,
-    'sidebar': Sidebar
+    'sidebar': Sidebar,
+    'footerbar': Footer
   },
   router,
   template: MainTemplate
