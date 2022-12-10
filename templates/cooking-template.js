@@ -1,7 +1,5 @@
 const CookingTemplate = `
-<style>
-  @import 'css/cooking.css';
-</style>
+<div class="main">
 <!-- Cooking Page Intro Section -->
 <section>
   <h3 id="top">Recipes</h3>
