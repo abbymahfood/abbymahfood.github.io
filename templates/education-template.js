@@ -3,22 +3,29 @@ const EducationTemplate = `
 <section>
   <img class="education-img" src="imgs/sammy/SammyWatchingLecture.jpeg" alt="Picture of my dog Sammy watching a BU MET Lecture with me.">
   <div align = "center">
-      {{schoolInfo}}
-      <table v-bind:schoolInfo = "schoolInfo">
-        <tr>
-            <th>Code</th>
-            <th>Name</th>
-            <th>Completed</th>
-            <th>Type</th>
-        </tr>
-        <tr v-for = "pastCourse in schoolInfo.PastCourses" :key = "schoolInfo.PastCourses">
-            <td>{{ pastCourse.Code }} </td>
-            <td>{{ pastCourse.Name }} </td>
-            <td>{{ pastCourse.Completed}} </td>
-            <td>{{ pastCourse.Type }} </td>
-        </tr>
-     </table>
-    </div>
+    <section v-bind:schoolInfo = "schoolInfo">
+      <article v-for = "school in schoolInfo.Schools" :key = "schoolInfo.Schools">
+        <h4>{{school.Name}}</h4>
+        <p>Major: {{school.Major}}</p>
+        <p>Type: {{school.DegreeType}}</p>
+        <p>Graduation: {{school.Year}}</p>
+        <table v-bind:school.PastCourses = "school.PastCourses">
+          <tr>
+              <th>Code</th>
+              <th>Name</th>
+              <th>Completed</th>
+              <th>Type</th>
+          </tr>
+          <tr v-for = "pastCourse in school.PastCourses" :key = "school.PastCourses">
+              <td>{{ pastCourse.Code }} </td>
+              <td>{{ pastCourse.Name }} </td>
+              <td>{{ pastCourse.Completed}} </td>
+              <td>{{ pastCourse.Type }} </td>
+          </tr>
+        </table>
+      </article>
+    </section>
+  </div>
   <h3 id="top">Current Studies</h3>
   <p>
     I am studying Software Development at Boston University's
