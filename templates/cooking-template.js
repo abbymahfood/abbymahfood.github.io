@@ -1,6 +1,6 @@
 const CookingTemplate = `
 <style>
-  @import '../css/cooking.css';
+  @import 'css/cooking.css';
 </style>
 <!-- Cooking Page Intro Section -->
 <section>
@@ -19,7 +19,7 @@ const CookingTemplate = `
     <div class="article-grid">
       <h4 class="article-title">Salmon Wellington</h4>
       <div class="article-contents">
-        <img class="article-photo" src="../imgs/cooking/salmon_wellington.jpeg" alt="Abby's attempt at Salmon Wellington.">
+        <img class="article-photo" src="imgs/cooking/salmon_wellington.jpeg" alt="Abby's attempt at Salmon Wellington.">
         <ul class="article-comments">
           <li>
             I was inspired to make this recipe when a co-worker said she
@@ -44,7 +44,7 @@ const CookingTemplate = `
     <div class="article-grid">
       <h4 class="article-title">Shrimp Stir-fry</h4>
       <div class="article-contents">
-        <img class="article-photo" src="../imgs/cooking/ShrimStirFry.jpg" alt="Abby's attempt at Shrimp Stir-fry.">
+        <img class="article-photo" src="imgs/cooking/ShrimStirFry.jpg" alt="Abby's attempt at Shrimp Stir-fry.">
         <ul class="article-comments">
           <li>
             This recipe was delicious! But I had a lot of help from
@@ -69,7 +69,7 @@ const CookingTemplate = `
     <div class="article-grid">
       <h4 class="article-title">Sugar Free Vanilla Cake</h4>
       <div class="article-contents">
-        <img class="article-photo" src="../imgs/cooking/GolfCake.jpeg" alt="Abby's attempt at sugar free cake.">
+        <img class="article-photo" src="imgs/cooking/GolfCake.jpeg" alt="Abby's attempt at sugar free cake.">
         <ul class="article-comments">
           <li>
             I made this cake for my partner's birthday. He likes golf so

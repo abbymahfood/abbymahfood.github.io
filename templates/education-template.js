@@ -1,10 +1,10 @@
 const EducationTemplate = `
 <style>
-  @import '../css/education.css';
+  @import 'css/education.css';
 </style>
 <div class="main">
 <section>
-  <img src="../imgs/sammy/SammyWatchingLecture.jpeg" alt="Picture of my dog Sammy watching a BU MET Lecture with me.">
+  <img src="imgs/sammy/SammyWatchingLecture.jpeg" alt="Picture of my dog Sammy watching a BU MET Lecture with me.">
   <h3 id="top">Current Studies</h3>
   <p>
     I am studying Software Development at Boston University's

@@ -1,6 +1,6 @@
 const PetsTemplate = `
 <style>
-  @import '../css/pets.css';
+  @import 'css/pets.css';
 </style>
 <div class="main">
 <!-- Pet Summary Section -->
@@ -31,7 +31,7 @@ const PetsTemplate = `
     <section class="pet-flex">
         <article class="article-grid pet">
             <h4 class="article-title">Patch - Adopted 2017</h4>
-            <img class="article-photo" src="../imgs/patch/Patch.jpeg" alt="Picture of Patch the cat sitting.">
+            <img class="article-photo" src="imgs/patch/Patch.jpeg" alt="Picture of Patch the cat sitting.">
             <div class="article-comments">
                 <div class="article-line">
                     <p class="pet-field">Breed: </p>
@@ -41,7 +41,7 @@ const PetsTemplate = `
         </article>
         <article class="article-grid pet">
             <h4 class="article-title">Sammy - Adopted 2018</h4>
-            <img class="article-photo" src="../imgs/sammy/Sammy.jpeg" alt="Picture of Sammy the dog sleeping.">
+            <img class="article-photo" src="imgs/sammy/Sammy.jpeg" alt="Picture of Sammy the dog sleeping.">
             <div class="article-comments">
                 <div class="article-line">
                     <p class="pet-field">Breed: </p>
@@ -51,7 +51,7 @@ const PetsTemplate = `
         </article>
         <article class="article-grid pet">
             <h4 class="article-title">Nea - Adopted 2018</h4>
-            <img class="article-photo" src="../imgs/nea/Nea.jpeg" alt="Picture of Sammy the dog sleeping.">
+            <img class="article-photo" src="imgs/nea/Nea.jpeg" alt="Picture of Sammy the dog sleeping.">
             <div class="article-comments">
                 <div class="article-line">
                     <p class="pet-field">Breed: </p>
@@ -61,7 +61,7 @@ const PetsTemplate = `
         </article>
         <article class="article-grid pet">
             <h4 class="article-title">Winston - Adopted 2019</h4>
-            <img class="article-photo" src="../imgs/winston/Winston.jpeg" alt="Picture of Sammy the dog sleeping.">
+            <img class="article-photo" src="imgs/winston/Winston.jpeg" alt="Picture of Sammy the dog sleeping.">
             <div class="article-comments">
                 <div class="article-line">
                     <p class="pet-field">Breed: </p>
