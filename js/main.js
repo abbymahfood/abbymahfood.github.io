@@ -15,15 +15,44 @@ import {
 } from './../components/about.js'
 
 import {
+  Education
+} from './../components/education.js'
+
+import {
+  Cooking
+} from './../components/cooking.js'
+
+import {
+  Pets
+} from './../components/pets.js'
+
+import {
   MainTemplate
 } from './../templates/main-template.js'
 
 const router = new VueRouter({
-  routes: [{
-    path: '/about',
-    component: About,
-    name: "About Page"
-  }]
+  routes: [
+    {
+      path: '/',
+      component: About,
+      name: "About Page"
+    },
+    {
+      path: '/education',
+      component: Education,
+      name: "Education Page"
+    },
+    {
+      path: '/cooking',
+      component: Cooking,
+      name: "Cooking Page"
+    },
+    {
+      path: '/pets',
+      component: Pets,
+      name: "Pets Page"
+    }
+  ]
 })
 
 new Vue({
