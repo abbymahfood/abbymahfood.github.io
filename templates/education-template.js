@@ -26,11 +26,11 @@ const EducationTemplate = `
   <section v-bind:schoolInfo = "schoolInfo">
       <article v-for = "school in schoolInfo" :key = "schoolInfo">
         <h4>{{school.Name}}</h4>
-        <p>Major: {{school.Major}}</p>
-        <p>Type: {{school.DegreeType}}</p>
-        <p>Graduation: {{school.Year}}</p>
-        <h5>Past Courses</h5>
+        <p>{{school.Major}}</p>
+        <p>{{school.DegreeType}}</p>
+        <p>{{school.Graduation}}</p>
         <section>
+          <h5>Past Courses</h5>
           <table v-bind:school.PastCourses = "school.PastCourses">
             <tr>
                 <th>Code</th>
