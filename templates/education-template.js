@@ -1,7 +1,4 @@
 const EducationTemplate = `
-<style>
-  @import 'css/education.css';
-</style>
 <div class="main">
 <section>
   <img src="imgs/sammy/SammyWatchingLecture.jpeg" alt="Picture of my dog Sammy watching a BU MET Lecture with me.">

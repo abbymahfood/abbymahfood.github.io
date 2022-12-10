@@ -1,7 +1,4 @@
 const PetsTemplate = `
-<style>
-  @import 'css/pets.css';
-</style>
 <div class="main">
 <!-- Pet Summary Section -->
 <section>
