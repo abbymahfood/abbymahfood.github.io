@@ -3,7 +3,7 @@ import { EducationTemplate } from '../templates/education-template.js'
 const Education = {
   data() {
     return {
-      name: "This content is redered with the help of v-text directive",
+      name: "test!",
       schoolInfo: processLoad()
     };
   },
@@ -14,9 +14,8 @@ const Education = {
       scrollArea.focus();
       scrollArea.scrollTo(0, 0);
     },
-    /** Fetches a JSON doc from URL and returns JSON object */
-    async fetchJson(url = ''){
-      return await fetch(url)
+    async processLoad() {
+      const jsonObject = await fetch("https://abbymahfood.github.io/jsons/education.json")
       .then((response) => {
           if (response.ok && response.status == OK) {
               return response.json();
@@ -26,15 +25,12 @@ const Education = {
       .then((json) => {
           return json;
       })
-    },
-    async processLoad() {
-      const jsonObject = await fetchJson("https://abbymahfood.github.io/jsons/education.json");
       schoolInfo = jsonObject.Schools[0];
       return schoolInfo;
     }
   },
   mounted(){
-    window.addEventListener("load", () => this.processLoad());
+    window.addEventListener("load", () => this.methods.processLoad());
   }
 }
 
