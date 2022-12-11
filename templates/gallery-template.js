@@ -12,7 +12,7 @@ const GalleryTemplate = `
 
     <section v-bind:galleryImages = "galleryImages">
         <article class="gallery-image" v-for = "image in galleryImages" :key = "galleryImages">
-            <img :src="../image.Path" :alt="image.Description" />
+            <img :src="../imgs/image.Path" :alt="image.Description" />
         </article>
     </section>
 </div>
