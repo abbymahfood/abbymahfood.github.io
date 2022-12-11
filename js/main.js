@@ -31,8 +31,8 @@ import {
 } from './../components/resume.js';
 
 import {
-  Messages
-} from './../components/messages.js';
+  Gallery
+} from '../components/gallery.js';
 
 import {
   MainTemplate
@@ -66,9 +66,9 @@ const router = new VueRouter({
       name: "Resume Page"
     },
     {
-      path: '/messages',
-      component: Messages,
-      name: "Messages Page"
+      path: '/gallery',
+      component: Gallery,
+      name: "Gallery Page"
     }
   ]
 });

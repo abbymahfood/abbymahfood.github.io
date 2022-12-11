@@ -17,7 +17,7 @@ const NavbarTemplate = `
     <a href="#/cooking">Cooking</a>
   </p>
   <p>
-    <a href="#/messages">Messages</a>
+    <a href="#/gallery">Gallery</a>
   </p>
 </nav>
 </header>`

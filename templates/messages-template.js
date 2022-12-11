@@ -1,4 +1,0 @@
-const MessagesTemplate = `
-`
-
-export { MessagesTemplate }
