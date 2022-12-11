@@ -1,7 +1,7 @@
 const GalleryTemplate = `
 <div class="main">
     <h3 id="formTitle">Gallery</h3>
-    <form name="galleryForm" id="galleryForm" class="gallery-form" @submit.prevent="onSubmit"">
+    <form name="galleryForm" id="galleryForm" class="gallery-form" @submit.prevent="onSubmit">
         <input class="textbox" type="text" name="gallerySearch" id="gallerySearch" placeholder="Search Gallery" autofocus>
         <input type="submit" id="submit" value="Submit">
     </form>
