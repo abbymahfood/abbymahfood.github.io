@@ -31,7 +31,6 @@ const Resume = {
       this.programs = data.Programs;
       this.platforms = data.Platforms;
       this.frameworks = data.Frameworks;
-      console.log(data.Experience);
     })
     .catch(error => {
       this.errorMessage = error;
