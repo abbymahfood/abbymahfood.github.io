@@ -333,7 +333,9 @@ body {
   }
   
   .skillset {
-    display: inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
   }
 
   .skillset ul {
@@ -345,6 +347,16 @@ body {
     column-gap: 20px;
     margin: 2px;
     width: 100%;
+}
+
+.skills-header {
+  width: 90%;
+  text-align: left;
+  border-bottom: 0.5px solid #1d3557;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .experience-section {
@@ -404,15 +416,6 @@ body {
 .education-article .education-header h4{
   display: inline-block;
 }
-  
-
-  .skills-header {
-    width: 100%;
-    text-align: left;
-    border-top: 1px solid #1d3557;
-    padding-top: 5px;
-    margin-top: 5px;
-  }
 
   .resume-section-title {
     padding: 15px 0px 15px 5px;
