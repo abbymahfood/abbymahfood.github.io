@@ -429,7 +429,10 @@ ul li {
   padding-bottom: 5px;
 }
 
-
 .school-article {
+  width: 100%;
+}
+
+.textbox {
   width: 100%;
 }
