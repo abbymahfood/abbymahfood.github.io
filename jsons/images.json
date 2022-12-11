@@ -4,78 +4,79 @@
             "Path": "abby/abby_2015.jpg",
             "Description": "Starting her internship at Harris Corporation in 2015",
             "Tags": [
-                "Harris",
-                "Corporation",
-                "Abby",
+                "harris",
+                "corporation",
+                "abby",
                 "2015",
-                "Internship"
+                "internship"
             ]
         },
         {
             "Path": "abby/abby_2022.jpeg",
             "Description": "Abby in a professional photo taken for work in 2022",
             "Tags": [
-                "Abby",
+                "abby",
                 "2022",
-                "Professional"
+                "professional"
             ]
         },
         {
             "Path": "abby/Me.jpg",
             "Description": "Abby drinking iced coffee in Savannah, GA",
             "Tags": [
-                "Abby",
+                "abby",
                 "2022",
-                "Savannah",
-                "Iced Coffee"
+                "savannah",
+                "iced",
+                "coffee"
             ]
         },
         {
             "Path": "cooking/GolfCake.jpeg",
             "Description": "Sugar Free cake decorated for someone who likes Golf.",
             "Tags": [
-                "Sugar",
-                "Free",
-                "Golf",
-                "Cake"
+                "sugar",
+                "free",
+                "golf",
+                "cake"
             ]
         },
         {
             "Path": "cooking/salmon_wellington.jpeg",
             "Description": "Salmon Wellington Abby made with her brother.",
             "Tags": [
-                "Salmon",
-                "Wellington",
-                "Fish",
-                "Dinner"
+                "salmon",
+                "wellington",
+                "fish",
+                "dinner"
             ]
         },
         {
             "Path": "cooking/ShrimStirFry.jpg",
             "Description": "Shrimp Stir Fry Abby made at The Gathering Table.",
             "Tags": [
-                "Stirfry",
-                "Shrimp",
-                "Gathering",
-                "Table"
+                "stirfry",
+                "shrimp",
+                "gathering",
+                "table"
             ]
         },
         {
             "Path": "nea/Nea.jpeg",
             "Description": "Nea in the backyard.",
             "Tags": [
-                "Nea",
-                "Dog",
-                "Backyard"
+                "nea",
+                "dog",
+                "backyard"
             ]
         },
         {
             "Path": "patch/patch_2017.jpg",
             "Description": "Patch soon after being adopted in 2017.",
             "Tags": [
-                "Patch",
-                "Cat",
-                "Adopt",
+                "patch",
+                "cat",
+                "adopt",
                 "2017"
             ]
         },
@@ -83,9 +84,9 @@
             "Path": "patch/patch_2022.jpeg",
             "Description": "Patch posing for his babysitter in 2022.",
             "Tags": [
-                "Patch",
-                "Cat",
-                "Babysitter",
+                "patch",
+                "cat",
+                "babysitter",
                 "2022"
             ]
         },
@@ -93,9 +94,9 @@
             "Path": "sammy/sammy_2017.jpg",
             "Description": "Sammy shortly after being adopted in 2017.",
             "Tags": [
-                "Sammy",
-                "Dog",
-                "Adopt",
+                "sammy",
+                "dog",
+                "adopt",
                 "2017"
             ]
         },
@@ -103,8 +104,8 @@
             "Path": "sammy/sammy_2021.jpeg",
             "Description": "Sammy shortly after jumping on the bed in 2021.",
             "Tags": [
-                "Sammy",
-                "Dog",
+                "sammy",
+                "dog",
                 "2021"
             ]
         },
@@ -112,19 +113,20 @@
             "Path": "sammy/Sammy.jpeg",
             "Description": "Sammy sleeping at camp in  upstate New York.",
             "Tags": [
-                "Sammy",
-                "Dog",
-                "New York",
-                "Upstate"
+                "sammy",
+                "dog",
+                "new",
+                "york",
+                "upstate"
             ]
         },
         {
             "Path": "winston/winston_2018.jpg",
             "Description": "Winston shortly after being adopted in 2018.",
             "Tags": [
-                "Winston",
-                "Cat",
-                "Adopt",
+                "winston",
+                "cat",
+                "adopt",
                 "2018"
             ]
         },
@@ -132,11 +134,11 @@
             "Path": "winston/winston_2022.jpeg",
             "Description": "Winston hanging out in his gingerbread house.",
             "Tags": [
-                "Winston",
-                "Cat",
-                "Ginger",
-                "Bread",
-                "House"
+                "winston",
+                "cat",
+                "ginger",
+                "bread",
+                "house"
             ]
         }
     ] 
