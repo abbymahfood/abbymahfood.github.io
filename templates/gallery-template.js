@@ -10,9 +10,9 @@ const GalleryTemplate = `
     <section class="gallery-section" v-bind:galleryImages = "galleryImages">
         <ul>
             <li v-for = "image in galleryImages" :key = "galleryImages">
-                <figure>
+                <picture>
                     <img :src="'../imgs/' + image.Path" :alt="image.Description" >
-                </figure>
+                </picture>
             </li>
         </ul>
     </section>

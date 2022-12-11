@@ -443,38 +443,33 @@ ul li {
   flex-wrap: wrap;
 }
 
-.gallery-section ul{
+.gallery-section ul {
   display: flex;
   flex-wrap: wrap;
 }
 
-
 .gallery-section li {
-  min-width: 40px;
-  max-width: 100px;
+  min-width: 200px;
+  max-width: 400px;
   flex: 1 0 0;
 }
 
-.gallery-section ul, li {
+.gallery-section ul,
+li {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.gallery-section ul {
-  background-color: tomato;
-}
-
 .gallery-section li {
-  margin: .5em;
-  background-color: darkgreen;
+  margin: 0.5em;
 }
 .gallery-section img {
-    width: 100%;
-    opacity: .5;
-  }
+  width: 100%;
+}
 
-  .gallery-section figure, img {
-    margin: 0;
-    padding: 0;
-  }
+.gallery-section picture,
+img {
+  margin: 0;
+  padding: 0;
+}
