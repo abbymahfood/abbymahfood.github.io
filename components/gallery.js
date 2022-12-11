@@ -33,7 +33,7 @@ const Gallery = {
       scrollArea.focus();
       scrollArea.scrollTo(0, 0);
     },
-    processForm() {
+    onSubmit() {
       console.log("In process form");
       return true;
     }
