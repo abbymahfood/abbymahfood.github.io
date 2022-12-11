@@ -15,6 +15,7 @@ const Gallery = {
       scrollArea.scrollTo(0, 0);
     },
     processForm() {
+      console.log("In process form");
       return true;
     }
   }

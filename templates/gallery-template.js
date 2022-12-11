@@ -1,7 +1,7 @@
 const GalleryTemplate = `
 <div class="main">
     <h3 id="formTitle">Gallery</h3>
-    <form name="galleryForm" id="galleryForm" method="post" action=" novalidate onsubmit="return processForm();">
+    <form name="galleryForm" id="galleryForm" method="post" novalidate onsubmit="return processForm();">
     <fieldset class="outerFieldset">
         <fieldset class="innerFieldset">
         <label class="textboxLabel" for="gallerySearch">Search Gallery</label>

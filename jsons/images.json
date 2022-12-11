@@ -1,0 +1,141 @@
+{
+    "Images": [
+        {
+            "Path": "abby/abby_2015.jpg",
+            "Description": "Abby Graduating in 2015",
+            "Tags": [
+                "Gradation",
+                "Abby",
+                "2015"
+            ]
+        },
+        {
+            "Path": "abby/abby_2022.jpeg",
+            "Description": "Abby in a professional photo taken for work in 2022",
+            "Tags": [
+                "Abby",
+                "2022",
+                "Professional"
+            ]
+        },
+        {
+            "Path": "abby/Me.jpg",
+            "Description": "Abby drinking iced coffee in Savannah, GA",
+            "Tags": [
+                "Abby",
+                "2022",
+                "Savannah",
+                "Iced Coffee"
+            ]
+        },
+        {
+            "Path": "cooking/GolfCake.jpeg",
+            "Description": "Sugar Free cake decorated for someone who likes Golf.",
+            "Tags": [
+                "Sugar",
+                "Free",
+                "Golf",
+                "Cake"
+            ]
+        },
+        {
+            "Path": "cooking/salmon_wellington.jpeg",
+            "Description": "Salmon Wellington Abby made with her brother.",
+            "Tags": [
+                "Salmon",
+                "Wellington",
+                "Fish",
+                "Dinner"
+            ]
+        },
+        {
+            "Path": "cooking/ShrimpStirFry.jpg",
+            "Description": "Shrimp Stir Fry Abby made at The Gathering Table.",
+            "Tags": [
+                "Stirfry",
+                "Shrimp",
+                "Gathering",
+                "Table"
+            ]
+        },
+        {
+            "Path": "nea/Nea.jpeg",
+            "Description": "Nea in the backyard.",
+            "Tags": [
+                "Nea",
+                "Dog",
+                "Backyard"
+            ]
+        },
+        {
+            "Path": "patch/patch_2017.jpg",
+            "Description": "Patch soon after being adopted in 2017.",
+            "Tags": [
+                "Patch",
+                "Cat",
+                "Adopt",
+                "2017"
+            ]
+        },
+        {
+            "Path": "patch/patch_2022.jpg",
+            "Description": "Patch posing for his babysitter in 2022.",
+            "Tags": [
+                "Patch",
+                "Cat",
+                "Babysitter",
+                "2022"
+            ]
+        },
+        {
+            "Path": "sammy/sammy_2017.jpg",
+            "Description": "Sammy shortly after being adopted in 2017.",
+            "Tags": [
+                "Sammy",
+                "Dog",
+                "Adopt",
+                "2017"
+            ]
+        },
+        {
+            "Path": "sammy/sammy_2021.jpeg",
+            "Description": "Sammy shortly after jumping on the bed in 2021.",
+            "Tags": [
+                "Sammy",
+                "Dog",
+                "2021"
+            ]
+        },
+        {
+            "Path": "sammy/Sammy.jpeg",
+            "Description": "Sammy sleeping at camp in  upstate New York.",
+            "Tags": [
+                "Sammy",
+                "Dog",
+                "New York",
+                "Upstate"
+            ]
+        },
+        {
+            "Path": "winston/winston_2018.jpg",
+            "Description": "Winston shortly after being adopted in 2018.",
+            "Tags": [
+                "Winston",
+                "Cat",
+                "Adopt",
+                "2018"
+            ]
+        },
+        {
+            "Path": "winston/winston_2022.jpeg",
+            "Description": "Winston hanging out in his gingerbread house.",
+            "Tags": [
+                "Winston",
+                "Cat",
+                "Ginger",
+                "Bread",
+                "House"
+            ]
+        }
+    ] 
+}
