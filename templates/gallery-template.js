@@ -11,7 +11,7 @@ const GalleryTemplate = `
         </fieldset>
     </form>
 
-    <section v-bind:galleryImages = "galleryImages">
+    <section class="gallery-section" v-bind:galleryImages = "galleryImages">
         <article class="gallery-image" v-for = "image in galleryImages" :key = "galleryImages">
             <img :src="'../imgs/' + image.Path" :alt="image.Description" >
         </article>

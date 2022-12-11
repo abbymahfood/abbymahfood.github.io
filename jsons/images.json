@@ -2,11 +2,13 @@
     "Images": [
         {
             "Path": "abby/abby_2015.jpg",
-            "Description": "Abby Graduating in 2015",
+            "Description": "Starting her internship at Harris Corporation in 2015",
             "Tags": [
-                "Gradation",
+                "Harris",
+                "Corporation",
                 "Abby",
-                "2015"
+                "2015",
+                "Internship"
             ]
         },
         {
@@ -49,7 +51,7 @@
             ]
         },
         {
-            "Path": "cooking/ShrimpStirFry.jpg",
+            "Path": "cooking/ShrimStirFry.jpg",
             "Description": "Shrimp Stir Fry Abby made at The Gathering Table.",
             "Tags": [
                 "Stirfry",
@@ -78,7 +80,7 @@
             ]
         },
         {
-            "Path": "patch/patch_2022.jpg",
+            "Path": "patch/patch_2022.jpeg",
             "Description": "Patch posing for his babysitter in 2022.",
             "Tags": [
                 "Patch",
