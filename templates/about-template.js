@@ -40,7 +40,7 @@ const AboutTemplate = `
     in Savannah, Georgia and a video of me kayaking in upstate New York!
   </p>
 
-  <a id="top-link" click="scrollMeTo()">Top</a>
+  <a id="top-link" onclick="scrollMeTo()">Top</a>
 </section>
 </div>`
 
