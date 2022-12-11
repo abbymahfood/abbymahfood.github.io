@@ -15,8 +15,8 @@ import {
 } from './../components/about.js';
 
 import {
-  Education
-} from './../components/education.js';
+  Courses
+} from './../components/courses.js';
 
 import {
   Cooking
@@ -46,9 +46,9 @@ const router = new VueRouter({
       name: "About Page"
     },
     {
-      path: '/education',
-      component: Education,
-      name: "Education Page"
+      path: '/courses',
+      component: Courses,
+      name: "Courses Page"
     },
     {
       path: '/cooking',

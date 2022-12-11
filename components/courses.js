@@ -1,7 +1,7 @@
-import { EducationTemplate } from '../templates/education-template.js'
+import { CoursesTemplate } from '../templates/courses-template.js'
 
-const Education = {
-  template: EducationTemplate,
+const Courses = {
+  template: CoursesTemplate,
   data() {
     return {
       schoolInfo: null,
@@ -36,4 +36,4 @@ const Education = {
   }
 }
 
-export { Education }
+export { Courses }

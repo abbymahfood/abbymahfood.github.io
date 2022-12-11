@@ -8,7 +8,7 @@ const NavbarTemplate = `
     <a href="#/resume">R&eacute;sum&eacute;</a>
   </p>
   <p>
-    <a href="#/education">Education</a>
+    <a href="#/courses">Courses</a>
   </p>
   <p>
     <a href="#/pets">Pets</a>

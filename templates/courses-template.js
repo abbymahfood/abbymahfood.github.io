@@ -1,7 +1,7 @@
-const EducationTemplate = `
+const CoursesTemplate = `
 <div class="main">
 <section>
-  <img class="education-img" src="imgs/sammy/SammyWatchingLecture.jpeg" alt="Picture of my dog Sammy watching a BU MET Lecture with me.">
+  <img class="courses-img" src="imgs/sammy/SammyWatchingLecture.jpeg" alt="Picture of my dog Sammy watching a BU MET Lecture with me.">
   <h3 id="top">Current and Past Studies</h3>
   <p>
     I am studying Software Development at Boston University's
@@ -32,6 +32,9 @@ const EducationTemplate = `
         <section>
           <h5>Past Courses</h5>
           <table v-bind:school.PastCourses = "school.PastCourses">
+            <tr>
+              <th colspan="4" scope="colgroup">Past Courses</th>
+            </tr>
             <tr>
                 <th>Code</th>
                 <th>Name</th>
@@ -87,4 +90,4 @@ const EducationTemplate = `
 </div>
 `
 
-export { EducationTemplate }
+export { CoursesTemplate }
