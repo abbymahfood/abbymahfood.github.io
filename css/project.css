@@ -468,8 +468,16 @@ li {
   width: 100%;
 }
 
-.gallery-section picture,
-img {
+.gallery-section picture, img {
   margin: 0;
   padding: 0;
+}
+
+.gallery-form {
+  display: flex;
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  border-bottom: 0.5px solid #1d3557;
+  border-top: 0.5px solid #1d3557;
+  margin-top: 5px;
 }
