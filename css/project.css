@@ -167,69 +167,6 @@ footer p {
   text-align: center;
 }
 
-@media (max-width: 800px) {
-  .pet {
-    min-width: 300px;
-  }
-
-  .wrapper {
-    font-size: small;
-    grid-template-columns: 100%;
-    grid-template-rows: 30px 60px calc(100vh - 115px) 25px;
-    grid-template-areas:
-      "sidebar"
-      "header"
-      "main"
-      "footer";
-  }
-  .main {
-    height: calc(100vh - 125px);
-    padding: 5px;
-    display: inline;
-  }
-  .main img {
-    width: 40%;
-  }
-  .main-sidebar-image {
-    display: block;
-    width: 40%;
-    border: 5px solid #8ea6c5;
-    float: left;
-    margin: 5px 15px 5px 0px;
-  }
-  .video-center {
-    width: 30%;
-    min-height: 70%;
-    border: 5px solid #8ea6c5;
-    float: right;
-    margin: 5px;
-  }
-  .sidebar {
-    height: 30px;
-    border-bottom: 1px solid #8ea6c5;
-    display: inline;
-    width: 100%;
-    vertical-align: center;
-  }
-  .sidebar h2 {
-    width: 50%;
-    display: inline;
-  }
-  .contact-info {
-    width: 50%;
-    display: inline;
-    float: right;
-    margin: 5px 5px 5px 5px;
-  }
-  .contact-info a {
-    text-align: right;
-    float: right;
-  }
-  .sidebar img {
-    display: none;
-  }
-}
-
 .cooking-main-flex {
   display: flex;
   flex-flow: wrap;
@@ -480,4 +417,67 @@ li {
   border-bottom: 0.5px solid #1d3557;
   border-top: 0.5px solid #1d3557;
   margin-top: 5px;
+}
+
+@media (max-width: 800px) {
+  .pet {
+    min-width: 300px;
+  }
+
+  .wrapper {
+    font-size: small;
+    grid-template-columns: 100%;
+    grid-template-rows: 30px 60px calc(100vh - 115px) 25px;
+    grid-template-areas:
+      "sidebar"
+      "header"
+      "main"
+      "footer";
+  }
+  .main {
+    height: calc(100vh - 125px);
+    padding: 5px;
+    display: inline;
+  }
+  .main img {
+    width: 40%;
+  }
+  .main-sidebar-image {
+    display: block;
+    width: 40%;
+    border: 5px solid #8ea6c5;
+    float: left;
+    margin: 5px 15px 5px 0px;
+  }
+  .video-center {
+    width: 30%;
+    min-height: 70%;
+    border: 5px solid #8ea6c5;
+    float: right;
+    margin: 5px;
+  }
+  .sidebar {
+    height: 30px;
+    border-bottom: 1px solid #8ea6c5;
+    display: inline;
+    width: 100%;
+    vertical-align: center;
+  }
+  .sidebar h2 {
+    width: 50%;
+    display: inline;
+  }
+  .contact-info {
+    width: 50%;
+    display: inline;
+    float: right;
+    margin: 5px 5px 5px 5px;
+  }
+  .contact-info a {
+    text-align: right;
+    float: right;
+  }
+  .sidebar img {
+    display: none;
+  }
 }
