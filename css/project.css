@@ -423,16 +423,24 @@ li {
   .pet {
     min-width: 300px;
   }
-
   .wrapper {
     font-size: small;
     grid-template-columns: 100%;
-    grid-template-rows: 30px 60px calc(100vh - 115px) 25px;
+    grid-template-rows: 30px 30px calc(100vh - 100px) 25px;
     grid-template-areas:
       "sidebar"
       "header"
       "main"
       "footer";
+  }
+  nav a:link {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
   .main {
     height: calc(100vh - 125px);
