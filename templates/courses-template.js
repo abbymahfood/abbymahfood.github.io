@@ -24,16 +24,11 @@ const CoursesTemplate = `
     current, and future courses. 
   </p>
   <section v-bind:schoolInfo = "schoolInfo">
-      <article v-for = "school in schoolInfo" :key = "schoolInfo">
-        <h4>{{school.Name}}</h4>
-        <p>{{school.Major}}</p>
-        <p>{{school.DegreeType}}</p>
-        <p>{{school.Graduation}}</p>
+      <article class="school-article" v-for = "school in schoolInfo" :key = "schoolInfo">
         <section>
-          <h5>Past Courses</h5>
           <table v-bind:school.PastCourses = "school.PastCourses">
             <tr>
-              <th colspan="4" scope="colgroup">Past Courses</th>
+              <th colspan="4" scope="colgroup">{{school.Name}} Past Courses</th>
             </tr>
             <tr>
                 <th>Code</th>
@@ -49,9 +44,12 @@ const CoursesTemplate = `
             </tr>
           </table>
         </section>
+        <br>
         <section v-if="school.CurrentCourses.length > 0">
-          <h5>Current Courses</h5>
           <table v-bind:school.CurrentCourses = "school.CurrentCourses">
+            <tr>
+              <th colspan="4" scope="colgroup">{{school.Name}} Current Courses</th>
+            </tr>
             <tr>
                 <th>Code</th>
                 <th>Name</th>
@@ -66,9 +64,12 @@ const CoursesTemplate = `
             </tr>
           </table>
         </section>
+        <br>
         <section v-if="school.FutureCourses.length > 0">
-          <h5>Future Courses</h5>
           <table v-bind:school.FutureCourses = "school.FutureCourses">
+            <tr>
+              <th colspan="4" scope="colgroup">{{school.Name}} Future Courses</th>
+            </tr>
             <tr>
                 <th>Code</th>
                 <th>Name</th>
