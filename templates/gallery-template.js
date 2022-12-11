@@ -1,13 +1,11 @@
 const GalleryTemplate = `
 <div class="main">
     <h3 id="formTitle">Gallery</h3>
-    <form name="galleryForm" id="galleryForm" method="post" novalidate onsubmit="return processForm();">
+    <form name="galleryForm" id="galleryForm" action="javascript:void(0);" novalidate onsubmit="return processForm();">
     <fieldset class="outerFieldset">
         <fieldset class="innerFieldset">
-        <label class="textboxLabel" for="gallerySearch">Search Gallery</label>
-        <br>
-        <input class="textbox" type="text" name="gallerySearch" id="gallerySearch" required autofocus>
-        <div id="gallerySearchValidationMsg" class="validationErrorMsg"></div>
+            <input class="textbox" type="text" name="gallerySearch" id="gallerySearch" placeholder="Search Gallery" required autofocus>
+            <div id="gallerySearchValidationMsg" class="validationErrorMsg"></div>
         </fieldset>
         <input type="submit" id="submit" value="Submit">
     </fieldset>
