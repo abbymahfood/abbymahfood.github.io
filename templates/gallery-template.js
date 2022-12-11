@@ -2,19 +2,19 @@ const GalleryTemplate = `
 <div class="main">
     <h3 id="formTitle">Gallery</h3>
     <form name="galleryForm" id="galleryForm" @submit.prevent="onSubmit"">
-        <fieldset class="outerFieldset">
-            <fieldset class="innerFieldset">
-                <input class="textbox" type="text" name="gallerySearch" id="gallerySearch" placeholder="Search Gallery" required autofocus>
-                <div id="gallerySearchValidationMsg" class="validationErrorMsg"></div>
-            </fieldset>
-            <input type="submit" id="submit" value="Submit">
-        </fieldset>
+        <input class="textbox" type="text" name="gallerySearch" id="gallerySearch" placeholder="Search Gallery" autofocus>
+        <div id="gallerySearchValidationMsg" class="validationErrorMsg"></div>
+        <input type="submit" id="submit" value="Submit">
     </form>
 
     <section class="gallery-section" v-bind:galleryImages = "galleryImages">
-        <article class="gallery-image" v-for = "image in galleryImages" :key = "galleryImages">
-            <img :src="'../imgs/' + image.Path" :alt="image.Description" >
-        </article>
+        <ul>
+            <li v-for = "image in galleryImages" :key = "galleryImages">
+                <figure>
+                    <img :src="'../imgs/' + image.Path" :alt="image.Description" >
+                </figure>
+            </li>
+        </ul>
     </section>
 
     <a id="top-link" @click="scrollMeTo()">Top</a>

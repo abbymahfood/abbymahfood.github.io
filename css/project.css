@@ -442,3 +442,39 @@ ul li {
   width: 100%;
   flex-wrap: wrap;
 }
+
+.gallery-section ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.gallery-section li {
+  min-width: 40px;
+  max-width: 100px;
+  flex: 1 0 0;
+}
+
+.gallery-section ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery-section ul {
+  background-color: tomato;
+}
+
+.gallery-section li {
+  margin: .5em;
+  background-color: darkgreen;
+}
+.gallery-section img {
+    width: 100%;
+    opacity: .5;
+  }
+
+  .gallery-section figure, img {
+    margin: 0;
+    padding: 0;
+  }
