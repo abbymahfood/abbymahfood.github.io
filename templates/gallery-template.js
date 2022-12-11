@@ -3,7 +3,6 @@ const GalleryTemplate = `
     <h3 id="formTitle">Gallery</h3>
     <form name="galleryForm" id="galleryForm" class="gallery-form" @submit.prevent="onSubmit"">
         <input class="textbox" type="text" name="gallerySearch" id="gallerySearch" placeholder="Search Gallery" autofocus>
-        <div id="gallerySearchValidationMsg" class="validationErrorMsg"></div>
         <input type="submit" id="submit" value="Submit">
     </form>
 
