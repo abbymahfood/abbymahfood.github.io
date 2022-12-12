@@ -39,14 +39,14 @@
             "Major": "Software Development", 
             "DegreeType": "Masters of Science",
             "Graduation": "2024",
-            "Logo": "schools/uf-logo.jpeg"
+            "Logo": "schools/bu-logo.png"
         },
         {
             "Name": "University of Florida",
             "Major": "Computer Science", 
             "DegreeType": "Bachelors of Science",
             "Graduation": "2016",
-            "Logo": "schools/bu-logo.png"
+            "Logo": "schools/uf-logo.png"
         }
     ],
     "Experience": [
