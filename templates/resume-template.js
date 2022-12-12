@@ -18,7 +18,7 @@ const ResumeTemplate = `
         <div class="education-section">
             <article class="education-article" v-if="education" v-for = "edu in education" :key = "education">
                 <div class="education-logo">
-                    <img class="education-logo-image" :src="'../imgs/' + edu.Logo" :alt="edu.Name + ' Logo'" >
+                    <img class="education-logo-image" style="padding: 5px; border: 0px;" :src="'../imgs/' + edu.Logo" :alt="edu.Name + ' Logo'" >
                 </div>
                 <div class="education-info">
                     <div class="education-header">
