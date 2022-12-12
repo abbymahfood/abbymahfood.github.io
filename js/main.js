@@ -35,6 +35,10 @@ import {
 } from '../components/gallery.js';
 
 import {
+  NotFound
+} from './../components/notfound.js';
+
+import {
   MainTemplate
 } from './../templates/main-template.js';
 
@@ -69,6 +73,10 @@ const router = new VueRouter({
       path: '/gallery',
       component: Gallery,
       name: "Gallery Page"
+    },
+    {
+      path: "/:pathMatch(.*)*",
+      component: NotFound
     }
   ]
 });
