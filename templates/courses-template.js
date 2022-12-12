@@ -23,9 +23,9 @@ const CoursesTemplate = `
     Below you'll find a all the schools I've attended along with past,
     current, and future courses. 
   </p>
-  <br>
   <section v-bind:schoolInfo = "schoolInfo">
       <article class="school-article" v-for = "school in schoolInfo" :key = "schoolInfo">
+        <br>
         <section>
           <table v-bind:school.PastCourses = "school.PastCourses">
             <tr>
