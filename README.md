@@ -15,4 +15,4 @@ Project is created with:
 * CSS
 	
 ## Demo
-Visit https://abbymahfood.github.io/project-index.html#/ to demo. 
+Visit https://abbymahfood.github.io to demo. 
