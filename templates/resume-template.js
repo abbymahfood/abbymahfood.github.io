@@ -17,12 +17,17 @@ const ResumeTemplate = `
         <h3 id="top" class="resume-section-title">Education</h3>
         <div class="education-section">
             <article class="education-article" v-if="education" v-for = "edu in education" :key = "education">
-                <div class="education-header">
-                    <h4>{{edu.Name}}</h4>
-                    <p> ({{edu.Graduation}})</p>
+                <div class="education-logo">
+                    <img class="education-logo-image" :src="'../imgs/' + edu.Logo" :alt="edu.Name + ' Logo'" >
                 </div>
-                <p>{{edu.Major}}</p>
-                <p>{{edu.DegreeType}}</p>
+                <div class="education-info">
+                    <div class="education-header">
+                        <h4>{{edu.Name}}</h4>
+                        <p> ({{edu.Graduation}})</p>
+                    </div>
+                    <p>{{edu.Major}}</p>
+                    <p>{{edu.DegreeType}}</p>
+                </div>
             </article> 
         </div>
     </section>

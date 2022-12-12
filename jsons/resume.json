@@ -38,13 +38,15 @@
             "Name": "Boston University",
             "Major": "Software Development", 
             "DegreeType": "Masters of Science",
-            "Graduation": "2024"
+            "Graduation": "2024",
+            "Logo": "schools/uf-logo.jpeg"
         },
         {
             "Name": "University of Florida",
             "Major": "Computer Science", 
             "DegreeType": "Bachelors of Science",
-            "Graduation": "2016"
+            "Graduation": "2016",
+            "Logo": "schools/bu-logo.png"
         }
     ],
     "Experience": [
